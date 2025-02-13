@@ -1,0 +1,15 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["build", "-t", "dga-dataproc-pipeline-test-container", "-f", "Dockerfile.unittest", ".", "--build-arg", "BASE_IMAGE=${_BASE_IMAGE}"]
+    timeout: 9000s
+
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["run", "dga-dataproc-pipeline-test-container", "pytest", "-n", "2", "-vv", "/packages/dga_dataproc_package/"]
+    timeout: 9000s
+timeout: 9000s
+
+substitutions:
+  _LOCATION: us-central1
+  _IMAGE_PROJECT_ID: dga-athena-sandbox
+  _REPOSITORY: dataproc-images
+  _BASE_IMAGE: ${_LOCATION}-docker.pkg.dev/${_IMAGE_PROJECT_ID}/${_REPOSITORY}/dga-dataproc-base:latest
