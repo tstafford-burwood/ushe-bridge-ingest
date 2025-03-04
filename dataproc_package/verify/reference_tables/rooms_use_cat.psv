@@ -1,0 +1,16 @@
+R_Use_Cat_Code|R_Use_Cat_Name|Created_Date|Modified_Date|Inactive
+000|Unclassified |2003-11-10 00:00:00.000|NULL|N
+100|Classroom Facilities |2003-11-10 00:00:00.000|NULL|N
+200|Laboratory Facilities |2003-11-10 00:00:00.000|NULL|N
+300|Office Facilities|2003-11-10 00:00:00.000|NULL|N
+400|Study Facilities |2003-11-10 00:00:00.000|NULL|N
+500|Special Use Facilities|2003-11-10 00:00:00.000|NULL|N
+600|General Use Facilities |2003-11-10 00:00:00.000|NULL|N
+700|Support Facilities |2003-11-10 00:00:00.000|NULL|N
+800|Health Care Facilities|2003-11-10 00:00:00.000|NULL|N
+900|Residential Facilities |2003-11-10 00:00:00.000|NULL|N
+NON|Non Assignable Area|2003-11-10 00:00:00.000|NULL|N
+WWW|Circulation Area|2003-11-10 00:00:00.000|NULL|N
+XXX|Building Service Area|2012-03-30 00:00:00.000|NULL|N
+YYY|Mechanical Area |2012-03-30 00:00:00.000|NULL|N
+ZZZ|Structural Area |2012-03-30 00:00:00.000|NULL|N

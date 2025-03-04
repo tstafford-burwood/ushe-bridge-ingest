@@ -1,0 +1,202 @@
+G_Deg_Type|Deg_Type_Description|Degree_Level|Created_Date|Modified_Date|Inactive
+150|COP150 - Certificate of Proficiency|UCAT|2010-01-01 00:00:00.000|NULL|N
+300|COP300 - Certificate of Proficiency|UCAT|2010-01-01 00:00:00.000|NULL|N
+450|COP450 - Certificate of Proficiency|UCAT|2010-01-01 00:00:00.000|NULL|N
+600|COP600 - Certificate of Proficiency|UCAT|2010-01-01 00:00:00.000|NULL|N
+AA|Associate of Arts|Associates|2010-01-01 00:00:00.000|NULL|N
+AAS|Associate of Applied Science|Associates|2010-01-01 00:00:00.000|NULL|N
+AAT|Associate of Applied Technology|Associates|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+AC|Associate of Science in Criminal Justice|Associates|2010-01-01 00:00:00.000|NULL|N
+AE|Associate of Engineering Tech|Associates|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+AFA|Associates of Fine Arts|Associates|2022-05-31 13:01:11.713|2023-08-02 15:09:22.883|Y
+APE|Associate of Pre-Engineering|Associates|2010-01-01 00:00:00.000|NULL|N
+APS|Associate of Pre-Science|Associates|2023-08-15 13:44:06.520|NULL|N
+AS|Associate of Science|Associates|2010-01-01 00:00:00.000|NULL|N
+ASB|Associate of Science in Business|Associates|2010-01-01 00:00:00.000|NULL|N
+ASN|Associate of Science in Nursing|Associates|2010-01-01 00:00:00.000|NULL|N
+AUD|Doctor of Audiology|Professional|2010-01-01 00:00:00.000|NULL|N
+AWD|Award - less than one year certificate|Certificate|2010-01-01 00:00:00.000|NULL|N
+BA|Bachelor of Arts|Bachelors|2010-01-01 00:00:00.000|NULL|N
+BAS|Bachelors of Applied Science|Bachelors|2021-09-08 11:55:05.523|NULL|N
+BAT|Bachelor of Applied Technology|Bachelors|2010-01-01 00:00:00.000|NULL|N
+BBA|Bachelor of Business Administration|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BBE|Bachelor of Business and Economics|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BCE|Bachelor of Science in Computer Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BCH|Bachelor of Science in Chemical Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BCS|Bachelor of Science in Computer Science|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BCV|Bachelor of Science in Civil Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BE|Bachelor of Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BEA|Bachelor of Science in Earth Science Comp Tchg|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BED|Bachelor of Education|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BEE|Bachelor of Science in Electrical Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BES|Bachelor of Science in Environmental Earth Science|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BFA|Bachelor of Fine Arts|Bachelors|2010-01-01 00:00:00.000|NULL|N
+BFE|Bachelor of Science in Fuels Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BFL|Bachelor of Foreign Language|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BGE|Bachelor of Science in Geological Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BGL|Bachelor of Science in Geology|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BGP|Bachelor of Science in Geophysics|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BIAD|Bachelors of Interior Architecture and Design|Bachelors|2023-08-03 12:05:34.153|NULL|N
+BID|Bachelors of Interior Design|Bachelors|2010-01-01 00:00:00.000|NULL|N
+BIE|Bachelor of Science in Industrial Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BIO|Bachelor of Science Biomedical Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BIS|Bachelors of Integrated Studies|Bachelors|2010-01-01 00:00:00.000|NULL|N
+BLA|Bachelor of Landscape Architecture|Bachelors|2010-01-01 00:00:00.000|NULL|N
+BM|Bachelor of Music|Bachelors|2010-01-01 00:00:00.000|NULL|N
+BMA|Bachelor of Science in Material Sci and Engineer|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BMCM|Bachelor of Music in Commercial Music|Bachelors|2023-07-31 12:39:21.410|NULL|N
+BMD|Bachelor of Science in Medical Technology|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BME|Bachelor of Science in Mechanical Engineering|Bachelors|2010-01-01 00:00:00.000|NULL|N
+BMG|Bachelor of Science in Mining Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BML|Bachelor of Science in Metallurgical Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BMN|Bachelor of Science in Mineralogy|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BMT|Bachelor of Science in Meteorology|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BMU|Bachelor of Music|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BPH|Bachelor of Science in Pharmacy|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BS|Bachelor of Science|Bachelors|2010-01-01 00:00:00.000|NULL|N
+BSD|Bachelor of Science in Elementary Education|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BSG|Bachelor of Science in Geoscience|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+BSN|Bachelor of Science in Nursing|Bachelors|2010-01-01 00:00:00.000|NULL|N
+BSW|Bachelor of Social Work|Bachelors|2010-01-01 00:00:00.000|NULL|N
+BUS|Bachelor of University Studies|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+C1Y|Certificate - One Year|Certificate|2010-01-01 00:00:00.000|2021-09-08 13:23:10.517|Y
+CE|Civil Engineer|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+CEC|Continuing ED Completion|Completion|2020-08-11 15:37:22.227|NULL|N
+CER|Certificate|Certificate|2010-01-01 00:00:00.000|NULL|N
+CER0|Certificate of Proficiency|Certificate|2021-09-08 13:25:00.897|NULL|N
+CER1|Certificate of Completion|Certificate|2021-09-08 13:25:24.223|NULL|N
+CNA|Certified Nurse Assistant|Certificate|2010-01-01 00:00:00.000|NULL|N
+COC|Certification of Completion|UCAT|2010-01-01 00:00:00.000|NULL|N
+COF|COPF - Certificate of Proficiency|UCAT|2010-01-01 00:00:00.000|NULL|N
+COM|COPM - Certificate of Profieiency|UCAT|2010-01-01 00:00:00.000|NULL|N
+COP|Competency|UCAT|2010-01-01 00:00:00.000|NULL|N
+COS|Certificate of Technical Competency -Single|UCAT|2010-01-01 00:00:00.000|NULL|N
+COT|COTC - Certificate of Technical Competence|UCAT|2010-01-01 00:00:00.000|NULL|N
+CR|Credit|Certificate|2010-01-01 00:00:00.000|2023-08-08 17:05:44.760|Y
+CRTG|Graduate Certificate|Post Masters|2021-09-07 13:14:24.880|NULL|N
+DDS|Doctor of Dental Surgery|Professional|2010-01-01 00:00:00.000|NULL|N
+DIP|Diploma|Certificate|2010-01-01 00:00:00.000|NULL|N
+DMA|Doctorate of Music|Doctorate|2010-01-01 00:00:00.000|NULL|N
+DNP|Doctorate of Nurse Practice|Professional|2010-01-01 00:00:00.000|2022-05-18 14:20:38.000|N
+DOT|Doctor of Occupational Therapy|Professional|2010-01-01 00:00:00.000|2022-05-18 14:20:38.000|N
+DPH|Doctor of Pharmacy|Professional|2010-01-01 00:00:00.000|NULL|N
+DPT|Doctor of Physical Therapy|Professional|2010-01-01 00:00:00.000|2022-05-18 14:20:38.000|N
+DVM|Veterinary Medicine - DMV|Professional|2022-05-23 16:01:05.100|NULL|N
+DX|Previous Doctorate Degree|Doctorate|2010-01-01 00:00:00.000|NULL|N
+EDD|Doctor of Education|Doctorate|2022-06-24 14:33:46.717|NULL|N
+EDD|Doctor of Education|Professional|2010-01-01 00:00:00.000|2022-06-23 11:40:04.783|N
+EDS|Education Specialist|Masters|2010-01-01 00:00:00.000|NULL|N
+EE|Masters of Engineering|Masters|2010-01-01 00:00:00.000|NULL|N
+FD|Foreign Degree|Foreign Degree|2010-01-01 00:00:00.000|NULL|N
+GCR|Graduate Level Certificate|Post Bachelors|2010-01-01 00:00:00.000|NULL|N
+HAT|Honors BS in Atmospheric Sciences|Bachelors|2021-09-07 13:45:34.277|2023-08-02 15:09:22.883|Y
+HBA|Honors Bachelor of Arts|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HBF|Honors Bachelors of Fine Arts|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HBM|Honors Bachelors of Music|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HBO|Honors BS in Biomedical Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HBS|Honors Bachelor of Science|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HBU|Honors Degree of Bachelor of U|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HCE|Honors BS in Computer Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HCH|Honors BS in Chemical Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HCS|Honors BS in Computer Science|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HCV|Honrs BS in Civil Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HEE|Honors BS in Electrical Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HEV|Honors BS in Environmental Earth Science|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HFE|Honrs BS in Fuels Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HGE|Honors BS in Geological Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HGL|Honors BS in Geology|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HGP|Honors BS in Geophysics|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HIE|Honors BS in Industrial Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HME|Honors Degree of Bachelor of S|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HMN|Honors BS in Mining Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HMO|Honors BS in Metrology|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HMS|Honors Degree of Bachelor of S|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HMT|Honors BS in Metallugical Engineering|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HNU|Honors Degree of Bachelor of S|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HPH|Honors Degree of Bachelor of S|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HSG|Honors BS in Geoscience|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+HSW|Honors BS in Social Work|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+IC|Industry Certification|UCAT|2010-01-01 00:00:00.000|NULL|N
+IE|Bachelors of Irrigation Engineer|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+JD|Juris Doctor|Professional|2010-01-01 00:00:00.000|NULL|N
+LIC|Licensure|UCAT|2010-01-01 00:00:00.000|NULL|N
+LLB|Bachelor of Laws|Bachelors|2010-01-01 00:00:00.000|2023-08-02 15:09:22.883|Y
+LLM|Master of Laws|Masters|2010-01-01 00:00:00.000|NULL|N
+MA|Master of Arts|Masters|2010-01-01 00:00:00.000|NULL|N
+MAC|Master of Accounting|Masters|2010-01-01 00:00:00.000|NULL|N
+MAE|Master of Entertainment Arts and Engineering|Masters|2010-01-01 00:00:00.000|NULL|N
+MAG|Master of Agriculture|Masters|2010-01-01 00:00:00.000|NULL|N
+MAI|Master of Agriculture Industries|Masters|2010-01-01 00:00:00.000|NULL|N
+MAR|Master of Architecture|Masters|2010-01-01 00:00:00.000|NULL|N
+MAT|Master of Arts Teaching|Masters|2010-01-01 00:00:00.000|NULL|N
+MBA|Master of Business Administrat|Masters|2010-01-01 00:00:00.000|NULL|N
+MBC|Master of Business Creation|Masters|2021-09-07 13:14:24.880|NULL|N
+MCE|Master of Community Economic Development|Masters|2010-01-01 00:00:00.000|NULL|N
+MCP|Masters of City and Metro Planning|Masters|2010-01-01 00:00:00.000|NULL|N
+MCS|Master of Computer Science|Masters|2010-01-01 00:00:00.000|NULL|N
+MD|Doctor of Medicine|Professional|2010-01-01 00:00:00.000|NULL|N
+MDA|Master of Dietetics Administration|Masters|2010-01-01 00:00:00.000|NULL|N
+ME|Master of Engineerinng|Masters|2010-01-01 00:00:00.000|NULL|N
+MEA|Master of Engineering Administration|Masters|2010-01-01 00:00:00.000|NULL|N
+MED|Master of Education|Masters|2010-01-01 00:00:00.000|NULL|N
+MEN|Master of Engineering|Masters|2010-01-01 00:00:00.000|NULL|N
+MES|Master of Engineering Science|Masters|2010-01-01 00:00:00.000|NULL|N
+MF|Master of Forestry|Masters|2010-01-01 00:00:00.000|NULL|N
+MFA|Master of Fine Arts|Masters|2010-01-01 00:00:00.000|NULL|N
+MFE|Master of Financial Economics|Masters|2022-08-10 11:21:00.913|NULL|N
+MFH|Master of Family and Human Development|Masters|2010-01-01 00:00:00.000|NULL|N
+MFM|Master of Food Microbiology and Safety|Masters|2010-01-01 00:00:00.000|NULL|N
+MFP|Fitness Promotion - MFP|Masters|2022-05-23 16:01:05.100|NULL|N
+MFS|Masters of Food Safety & Quality|Masters|2010-01-01 00:00:00.000|NULL|N
+MHA|Master of Healthcare Administration|Masters|2010-01-01 00:00:00.000|NULL|N
+MHDFS|Masters in Human Develpment and Family Studies|Masters|2022-06-08 08:25:51.940|NULL|N
+MHP|Master of Health Promotion|Masters|2010-01-01 00:00:00.000|NULL|N
+MHR|Master of Human Resource Management|Masters|2010-01-01 00:00:00.000|NULL|N
+MIE|Master of Industrial Education|Masters|2010-01-01 00:00:00.000|NULL|N
+MIS|Master of Interdisciplinary Studies|Masters|2021-09-02 15:56:50.067|NULL|N
+MLA|Master of Landscape Architecture|Masters|2010-01-01 00:00:00.000|NULL|N
+MLS|Master of Library Science|Masters|2010-01-01 00:00:00.000|NULL|N
+MMA|Master of Mathematics|Masters|2010-01-01 00:00:00.000|NULL|N
+MMATH|Masters in Mathmatics|Masters|2022-06-08 08:21:01.973|NULL|N
+MME|Master of Music Education|Masters|2021-09-02 15:56:50.067|NULL|N
+MMF|Master of Marriage Family Therapy|Masters|2010-01-01 00:00:00.000|NULL|N
+MMU|Master of Music|Masters|2010-01-01 00:00:00.000|NULL|N
+MNR|Master of Natural Resources|Masters|2010-01-01 00:00:00.000|NULL|N
+MNS|Master of Natural Science|Masters|2010-01-01 00:00:00.000|NULL|N
+MOER|Master of Ecological Restoration|Masters|2022-08-10 11:21:00.913|NULL|N
+MOH|Masters of Occupational Health|Masters|2010-01-01 00:00:00.000|NULL|N
+MOT|Master of Occupational Therapy|Masters|2010-01-01 00:00:00.000|NULL|N
+MPA|Master of Public Administration|Masters|2010-01-01 00:00:00.000|NULL|N
+MPAS|Masters of Phusician Assistant Studies|Masters|2022-08-04 16:38:13.100|NULL|N
+MPC|Master of Prof Communication|Masters|2010-01-01 00:00:00.000|NULL|N
+MPH|Master of Public Health|Masters|2010-01-01 00:00:00.000|NULL|N
+MPL|Master of Philosophy|Masters|2010-01-01 00:00:00.000|NULL|N
+MPP|Master of Public Policy|Masters|2010-01-01 00:00:00.000|NULL|N
+MPR|Master of Professional Account|Masters|2010-01-01 00:00:00.000|NULL|N
+MPS|Master of Physician Assistant|Masters|2010-01-01 00:00:00.000|2022-05-18 14:19:17.793|N
+MPSH|Master of Prof. Studies in Horticulture (USU)|Masters|2010-01-01 00:00:00.000|2022-05-20 08:29:19.307|N
+MPT|Master of Physical Therapy|Masters|2010-01-01 00:00:00.000|NULL|N
+MRC|Master of Rehabilitation Counseling|Masters|2010-01-01 00:00:00.000|NULL|N
+MRD|Master of Real Estate Development|Masters|2010-01-01 00:00:00.000|NULL|N
+MRS|Master of Radiolgical Sciences|Masters|2010-01-01 00:00:00.000|NULL|N
+MS|Master of Science|Masters|2010-01-01 00:00:00.000|NULL|N
+MSD|Master of Software Development|Masters|2021-09-07 13:15:33.677|NULL|N
+MSE|Master of Science Education|Masters|2010-01-01 00:00:00.000|NULL|N
+MSL|Master of Second Language Teaching|Masters|2010-01-01 00:00:00.000|NULL|N
+MSM|Sports_Management - MSM|Masters|2022-05-23 16:01:05.100|NULL|N
+MSN|Master of Nursing|Masters|2010-01-01 00:00:00.000|NULL|N
+MSS|Master of Social Science|Masters|2010-01-01 00:00:00.000|NULL|N
+MST|Master of Statistics|Masters|2010-01-01 00:00:00.000|NULL|N
+MSW|Master of Social Work|Masters|2010-01-01 00:00:00.000|NULL|N
+MTA|Master of Taxation|Masters|2010-01-01 00:00:00.000|NULL|N
+MTR|Master of Athletic Training|Masters|2022-06-06 15:21:45.270|NULL|N
+MUP|Masters of Urban Planning|Masters|2010-01-01 00:00:00.000|NULL|N
+MX|Previous Master Degree|Masters|2010-01-01 00:00:00.000|NULL|N
+PBC|Post Bachelors Certificate|Post Bachelors|2023-08-09 08:32:52.770|NULL|N
+PHD|Doctor of Philosophy|Doctorate|2010-01-01 00:00:00.000|NULL|N
+PMC|Post Masters Certificate|Post Masters|2023-08-09 08:30:32.530|NULL|N
+PSM|Master of Science and Technology|Masters|2010-01-01 00:00:00.000|NULL|N
+PSYD|Doctor of Clinical Psychology|Professional|2022-08-04 16:38:13.100|NULL|N
+SAAS|Physical Therapist Assistant, SAAS|Associates|2022-08-25 00:00:00.000|NULL|N
+SBAC|Health Studies in Physical Therapy, SBAC|Bachelors|2022-08-25 00:00:00.000|NULL|N
+UCE|UCET - Certificate of Completion|UCAT|2010-01-01 00:00:00.000|NULL|N

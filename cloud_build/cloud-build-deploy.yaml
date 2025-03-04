@@ -1,0 +1,48 @@
+steps:
+   # Push entrypoint files to GCS
+  - name:  "gcr.io/cloud-builders/gsutil"
+    args: ["-m", "cp", "-r", "entrypoints/*", "gs://${_ENTRYPOINT_BUCKET}"]
+    waitFor: ["-"]
+
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+    - "build"
+    - "-t"
+    - "${_LOCATION}-docker.pkg.dev/${_IMAGE_PROJECT_ID}/${_REPOSITORY}/dataproc:$SHORT_SHA"
+    - "-t"
+    - "${_LOCATION}-docker.pkg.dev/${_IMAGE_PROJECT_ID}/${_REPOSITORY}/dataproc:latest"
+    - "."
+    - "--build-arg=BASE_IMAGE=${_BASE_IMAGE}"
+    id: "Build"
+    waitFor: ["-"]
+
+  # - name: "gcr.io/cloud-builders/docker"
+  #   args:
+  #   - "build"
+  #   - "-t"
+  #   - "dga-dataproc-pipeline-test-container"
+  #   - "-f"
+  #   - "Dockerfile.unittest"
+  #   - "."
+  #   - "--build-arg=BASE_IMAGE=${_LOCATION}-docker.pkg.dev/${_IMAGE_PROJECT_ID}/${_REPOSITORY}/dga-dataproc:$SHORT_SHA"
+  #   id: "UnitTestBuild"
+  #   waitFor: ["Build"]
+
+  # - name: "gcr.io/cloud-builders/docker"
+  #   id: "UnitTestRun"
+  #   args: ["run", "dga-dataproc-pipeline-test-container", "pytest", "-v", "/packages/dga_dataproc_package/"]
+  #   waitFor: ["UnitTestBuild"]
+
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["push", "${_LOCATION}-docker.pkg.dev/${_IMAGE_PROJECT_ID}/${_REPOSITORY}/dataproc", "--all-tags"]
+    waitFor: [ "Build"]
+
+substitutions:
+  _LOCATION: us-central1
+  _IMAGE_PROJECT_ID: br-sbx-app-0
+  _REPOSITORY: ushe-dataproc-test
+  _ENTRYPOINT_BUCKET: ushe-dataproc-entrypoint
+  _BASE_IMAGE: ${_LOCATION}-docker.pkg.dev/${_IMAGE_PROJECT_ID}/${_REPOSITORY}/dataproc-base:latest
+
+options:
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET

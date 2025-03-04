@@ -1,0 +1,17 @@
+IPEDS_CODE|IPEDS_TITLE|NOTES|Created_Date|Modified_Date|Inactive
+1|Less than One Academic Year|Phased Out Use 1A or 1B|2003-07-01 00:00:00.000|2020-06-18 00:00:00.000|Y
+10|First-Professional Degree|Phased Out Use 18|2003-07-01 00:00:00.000|2009-07-01 00:00:00.000|Y
+11|Post-Professional Certificate |Phased Out|2003-07-01 00:00:00.000|2009-07-01 00:00:00.000|Y
+17|Doctor's Degree - Research/Scholarship||2009-07-01 00:00:00.000|NULL|N
+18|Doctor's Degree - Professional Practice||2009-07-01 00:00:00.000|NULL|N
+19|Doctor's Degree - Other||2003-07-01 00:00:00.000|NULL|N
+1A|Less than One Year|1 to 8 Semester Hours|2020-06-18 00:00:00.000|NULL|N
+1B|Less than One Year|9 to 29 Semester Hours|2020-06-18 00:00:00.000|NULL|N
+2|At Least One but Less than Two Years|30 to 59 Semester Hours|2003-07-01 00:00:00.000|2020-06-18 00:00:00.000|N
+3|Associate's Degree||2003-07-01 00:00:00.000|NULL|N
+4|At Least Two but Less than Four Years|60 Plus Semester Hours|2003-07-01 00:00:00.000|2020-06-18 00:00:00.000|N
+5|Bachelor's Degree||2003-07-01 00:00:00.000|NULL|N
+6|Post-Baccalaurate Certificate||2003-07-01 00:00:00.000|NULL|N
+7|Masters Degree||2003-07-01 00:00:00.000|NULL|N
+8|Post-Masters Certificate||2003-07-01 00:00:00.000|NULL|N
+9|Doctor's Degree|Phased Out Use 17|2003-07-01 00:00:00.000|2009-07-01 00:00:00.000|Y

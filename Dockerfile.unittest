@@ -1,0 +1,31 @@
+# Inherit from artifact registry image
+ARG BASE_IMAGE=us-central1-docker.pkg.dev/asu-ap-gap-test-2360/asu-dataproc/dataproc:latest
+FROM ${BASE_IMAGE}
+
+USER root
+
+# Copy dga dataproc package to conda execution directory
+COPY ./dataproc_package /packages/dataproc_package
+
+# USER root
+
+RUN ${CONDA_HOME}/bin/conda build recipe /packages/dataproc_package/conda.recipe
+
+RUN ${CONDA_HOME}/bin/mamba install --use-local dataproc_package
+
+RUN apt update && apt upgrade -y
+RUN apt-get install openjdk-17-jdk -y
+
+RUN ${CONDA_HOME}/bin/mamba install \
+    pytest \
+    pyspark \
+    python-magic \
+    coverage \
+    faker \
+    openpyxl \
+    pytest-xdist
+
+
+
+
+ENV PYTHONPATH="${PYTHONPATH}:/packages/"

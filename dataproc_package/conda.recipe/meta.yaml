@@ -1,0 +1,7 @@
+package:
+  name: dataproc_package
+  version: 0.0.1
+
+source:
+     path: ..
+     

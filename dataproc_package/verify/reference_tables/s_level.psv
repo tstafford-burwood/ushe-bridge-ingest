@@ -1,0 +1,12 @@
+CODE|Name|Created_Date|Modified_Date|Inactive
+FR|Undergraduate Freshman|2000-06-14 00:00:00.000|NULL|N
+GD|Graduate Doctorate|2000-06-14 00:00:00.000|2016-10-12 00:00:00.000|Y
+GG|Graduate Masters|2016-10-12 00:00:00.000|NULL|N
+GN|Graduate Unclassified|2016-10-12 00:00:00.000|NULL|N
+JR|Undergraduate Junior|2000-06-14 00:00:00.000|NULL|N
+PL|Professional Law|2000-06-14 00:00:00.000|2016-10-12 00:00:00.000|Y
+PM|Professional Medicine|2000-06-14 00:00:00.000|2016-10-12 00:00:00.000|Y
+PO|Professional Other Medical|2000-06-14 00:00:00.000|2016-10-12 00:00:00.000|Y
+SO|Undergraduate Sophomore|2000-06-14 00:00:00.000|NULL|N
+SR|Undergraduate Senior|2000-06-14 00:00:00.000|NULL|N
+UG|Undergraduate Unclassified|1998-06-15 00:00:00.000|NULL|N

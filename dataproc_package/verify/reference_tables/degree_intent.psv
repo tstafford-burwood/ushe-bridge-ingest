@@ -1,0 +1,12 @@
+CODE|DEGREE_INTENT
+0|Non-Degree seeking
+1|Seeking one year degree/certificate/diploma
+2|Seeking two year degree/certificate/diploma
+3|Seeking three year degree/certificate/diploma
+4|Seeking four year degree/certificate/diploma
+5|Seeking five year degree/certificate/diploma
+A|Seeking advanced degree
+B|Completed two-year degree, working on additional courses toward bachelor degree.  Will be transfering to 4 yr inst
+C|Seeking post-baccalaureate certificate
+D|Seeking post-masters certificate
+M|Completed four-year degree, working on additional courses toward master degree.

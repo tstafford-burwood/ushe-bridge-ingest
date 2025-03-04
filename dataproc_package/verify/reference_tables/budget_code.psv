@@ -1,0 +1,14 @@
+Budget_Code|Budget_Code_Name|Created_Date|Modified_Date|Inactive
+BA|Budget Related Regular|1998-09-29 00:00:00.000|NULL|N
+BB|Budget Related Technical College Basic Instruction|2023-07-01 00:00:00.000|NULL|N
+BC|Budget Related Concurrent Enrollment|1998-09-29 00:00:00.000|NULL|N
+BN|Budget Related Not for Credit Technical Education|2023-07-01 00:00:00.000|NULL|N
+BT|Budget Related Technical Education|2023-07-01 00:00:00.000|NULL|N
+BU|Budget Related Course Below 1000|1998-09-29 00:00:00.000|NULL|N
+BV|Budget Related STIT|1998-09-29 00:00:00.000|2023-07-27 15:37:37.153|Y
+BY|Budget Related Not for Credit CTE|1998-09-29 00:00:00.000|2024-05-03 08:34:49.977|Y
+SD|Self Supporting Regular|1998-09-29 00:00:00.000|NULL|N
+SF|Self Supporting Concurrent Enrollment|1998-09-29 00:00:00.000|NULL|N
+SM|Self Supporting Courses Below 1000|1998-09-29 00:00:00.000|NULL|N
+SQ|Self Supporting Custom Fit|1998-09-29 00:00:00.000|NULL|N
+ST|Self Supporting Courses at Technical College|2023-07-01 00:00:00.000|NULL|N

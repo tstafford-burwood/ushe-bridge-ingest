@@ -1,0 +1,15 @@
+[project]
+name = "dataproc_package"
+version = "0.0.1"
+authors = [
+  { name="Daniel Palencia", email="dpalencia@burwood.com" },
+]
+description = "Package containing classes and modules for Dataproc jobs."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+

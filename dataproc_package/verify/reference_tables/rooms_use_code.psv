@@ -1,0 +1,124 @@
+R_Use_Code|R_Use_Name|Created_Date|Modified_Date|Inactive
+000|Unclassified|2003-11-10 00:00:00.000|NULL|N
+050|Inactive Area|2003-11-10 00:00:00.000|2020-12-08 16:26:25.293|N
+060|Alteration or Conversion Area|2003-11-10 00:00:00.000|2020-12-08 16:29:16.760|N
+070|Unfinished Area|2003-11-10 00:00:00.000|2020-12-08 16:29:52.087|N
+100|Classroom Facilities|2003-11-10 00:00:00.000|NULL|N
+110|Classroom|2003-11-10 00:00:00.000|NULL|N
+115|Classroom Services|2003-11-10 00:00:00.000|NULL|N
+200|Laboratory Facilities|2003-11-10 00:00:00.000|NULL|N
+210|Classroom Laboratory|2003-11-10 00:00:00.000|NULL|N
+215|Class Laboratory Service|2003-11-10 00:00:00.000|NULL|N
+220|Open Laboratory|2003-11-10 00:00:00.000|NULL|N
+225|Open Laboratory Service|2003-11-10 00:00:00.000|NULL|N
+230|Automotive/Trade Laboratory|2019-08-01 00:00:00.000|NULL|N
+235|Automotive/Trade Laboratory Service|2019-08-01 00:00:00.000|NULL|N
+250|Research/Nonclass Laboratory|2003-11-10 00:00:00.000|NULL|N
+255|Research/Nonclass Laboratory Service|2003-11-10 00:00:00.000|NULL|N
+300|Office Facilities|2003-11-10 00:00:00.000|NULL|N
+310|Office|2003-11-10 00:00:00.000|NULL|N
+315|Office Service|2003-11-10 00:00:00.000|NULL|N
+350|Conference Room|2003-11-10 00:00:00.000|NULL|N
+355|Conference Room Service|2003-11-10 00:00:00.000|NULL|N
+400|Student Facilities|2003-11-10 00:00:00.000|NULL|N
+410|Study Room 410|2003-11-10 00:00:00.000|NULL|N
+420|Stack|2003-11-10 00:00:00.000|NULL|N
+430|Open-Stack Study Room|2003-11-10 00:00:00.000|NULL|N
+440|Processing Room|2003-11-10 00:00:00.000|NULL|N
+455|Study Service|2003-11-10 00:00:00.000|NULL|N
+500|Special Use Facilities|2003-11-10 00:00:00.000|NULL|N
+510|Armory Military Support|2012-03-30 00:00:00.000|NULL|N
+515|Armory Service|2003-11-10 00:00:00.000|NULL|N
+520|Athletic or Physical Education|2003-11-10 00:00:00.000|NULL|N
+523|Athletic Facilities Spectator Seating|2003-11-10 00:00:00.000|NULL|N
+525|Athletic or Physical Education Service|2003-11-10 00:00:00.000|NULL|N
+530|Media Production|2003-11-10 00:00:00.000|NULL|N
+535|Media Production Service|2003-11-10 00:00:00.000|NULL|N
+540|Clinic|2003-11-10 00:00:00.000|NULL|N
+545|Clinic Service|2003-11-10 00:00:00.000|NULL|N
+550|Demonstration|2003-11-10 00:00:00.000|NULL|N
+555|Demonstration Service|2003-11-10 00:00:00.000|NULL|N
+560|Field Building|2003-11-10 00:00:00.000|NULL|N
+570|Animal Facilities|2012-03-30 00:00:00.000|NULL|N
+575|Animal Facilities Service|2012-03-30 00:00:00.000|NULL|N
+580|Greenhouse|2003-11-10 00:00:00.000|NULL|N
+585|Greenhouse Service|2003-11-10 00:00:00.000|NULL|N
+590|Other All Purpose|2012-03-30 00:00:00.000|NULL|N
+600|General Use Facilities|2003-11-10 00:00:00.000|NULL|N
+610|Assembly|2003-11-10 00:00:00.000|NULL|N
+615|Assembly Service|2003-11-10 00:00:00.000|NULL|N
+620|Exhibition|2003-11-10 00:00:00.000|NULL|N
+625|Exhibition Service|2003-11-10 00:00:00.000|NULL|N
+630|Food Facility|2003-11-10 00:00:00.000|NULL|N
+635|Food Facility Service|2003-11-10 00:00:00.000|NULL|N
+640|Day Care|2003-11-10 00:00:00.000|NULL|N
+645|Day Care Service|2003-11-10 00:00:00.000|NULL|N
+650|Lounge|2003-11-10 00:00:00.000|NULL|N
+655|Lounge Service|2003-11-10 00:00:00.000|NULL|N
+660|Merchandising |2003-11-10 00:00:00.000|NULL|N
+665|Merchandising Service|2003-11-10 00:00:00.000|NULL|N
+670|Recreation|2003-11-10 00:00:00.000|NULL|N
+675|Recreation Service|2003-11-10 00:00:00.000|NULL|N
+680|Meeting Room|2003-11-10 00:00:00.000|NULL|N
+685|Meeting Room Service|2003-11-10 00:00:00.000|NULL|N
+700|Support Facilities|2003-11-10 00:00:00.000|NULL|N
+710|Central Computer or Telecommunications|2003-11-10 00:00:00.000|NULL|N
+715|Central Computer or Telecommunications Service|2003-11-10 00:00:00.000|NULL|N
+720|Shop|2003-11-10 00:00:00.000|NULL|N
+725|Shop Service|2003-11-10 00:00:00.000|NULL|N
+730|Central Storage|2003-11-10 00:00:00.000|NULL|N
+735|Central Storage Service|2003-11-10 00:00:00.000|NULL|N
+740|Vehicle Storage|2003-11-10 00:00:00.000|NULL|N
+745|Vehicle Storage Service|2003-11-10 00:00:00.000|NULL|N
+750|Central Service|2003-11-10 00:00:00.000|NULL|N
+755|Central Service Support|2003-11-10 00:00:00.000|NULL|N
+760|Hazardous Materials Storage|2012-03-30 00:00:00.000|NULL|N
+765|Hazardous Materials Service|2003-11-10 00:00:00.000|NULL|N
+770|Hazardous Waste Storage|2012-03-30 00:00:00.000|NULL|N
+775|Hazardous Waste Storage Service|2012-03-30 00:00:00.000|NULL|N
+780|Unit Storage|2012-03-30 00:00:00.000|NULL|N
+800|Health Care Facilities|2003-11-10 00:00:00.000|NULL|N
+810|Patient Bedroom|2003-11-10 00:00:00.000|NULL|N
+815|Patient Bedroom Service|2003-11-10 00:00:00.000|NULL|N
+820|Patient Bath|2003-11-10 00:00:00.000|NULL|N
+830|Nurse Station|2003-11-10 00:00:00.000|NULL|N
+835|Nurse Station Service|2003-11-10 00:00:00.000|NULL|N
+840|Surgery|2003-11-10 00:00:00.000|NULL|N
+845|Surgery Service|2003-11-10 00:00:00.000|NULL|N
+850|Treatment/Examination Clinic|2012-03-30 00:00:00.000|NULL|N
+855|Treatment/Examination Clinic Service|2012-03-30 00:00:00.000|NULL|N
+860|Diagnostic Service Laboratory|2003-11-10 00:00:00.000|NULL|N
+865|Diagnostic Service Laboratory Support|2003-11-10 00:00:00.000|NULL|N
+870|Central Supplies|2012-03-30 00:00:00.000|NULL|N
+880|Public Waiting|2003-11-10 00:00:00.000|NULL|N
+890|Staff On-Call Facility|2003-11-10 00:00:00.000|NULL|N
+895|Staff On-Call Facility Service|2003-11-10 00:00:00.000|NULL|N
+900|Residential Facilities|2003-11-10 00:00:00.000|NULL|N
+910|Sleep/Study Without Toilet or Bath|2003-11-10 00:00:00.000|NULL|N
+919|Toilet or Bath|2003-11-10 00:00:00.000|NULL|N
+920|Sleep/Study with Toilet or Bath|2003-11-10 00:00:00.000|NULL|N
+935|Sleep/Study Service|2003-11-10 00:00:00.000|NULL|N
+950|Apartment|2003-11-10 00:00:00.000|NULL|N
+955|Apartment Service|2003-11-10 00:00:00.000|NULL|N
+970|House|2003-11-10 00:00:00.000|NULL|N
+NON|Non Assignable Area|2003-11-10 00:00:00.000|NULL|N
+W01|Bridge/Tunnel|2012-03-30 00:00:00.000|NULL|N
+W02|Elevator|2012-03-30 00:00:00.000|NULL|N
+W03|Escalator|2012-03-30 00:00:00.000|NULL|N
+W04|Loading Dock|2012-03-30 00:00:00.000|NULL|N
+W05|Lobby|2012-03-30 00:00:00.000|NULL|N
+W06|Public Corridor|2012-03-30 00:00:00.000|NULL|N
+W07|Stairway|2012-03-30 00:00:00.000|NULL|N
+WWW|Circulation Area|2003-11-10 00:00:00.000|NULL|N
+X01|Custodial Supply Closet|2012-03-30 00:00:00.000|2020-12-08 16:09:08.647|N
+X02|Janitor Room|2012-03-30 00:00:00.000|2020-12-08 16:09:14.587|N
+X03|Public Restroom|2012-03-30 00:00:00.000|2020-12-08 16:09:19.973|N
+X04|Trash Room|2012-03-30 00:00:00.000|NULL|N
+X05|Lactation Room|2020-12-10 15:36:33.373|NULL|N
+XXX|Building Service Area|2012-03-30 00:00:00.000|NULL|N
+Y01|Central Utility Plant|2012-03-30 00:00:00.000|NULL|N
+Y02|Fuel Room|2012-03-30 00:00:00.000|NULL|N
+Y03|Shaft|2012-03-30 00:00:00.000|NULL|N
+Y04|Utility/Mechanical Space|2012-03-30 00:00:00.000|NULL|N
+YYY|Mechanical Area|2012-03-30 00:00:00.000|NULL|N
+ZZZ|Structural Area|2012-03-30 00:00:00.000|NULL|N

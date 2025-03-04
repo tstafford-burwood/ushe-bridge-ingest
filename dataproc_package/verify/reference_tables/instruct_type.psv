@@ -1,0 +1,10 @@
+Instruct_Type_Code|Instruct_Type_Name|Created_Date|Modified_Date|Inactive
+CON|Conferences and Workshops|1999-02-24 00:00:00.000|NULL|N
+DIS|Dissertation Credit|1999-02-24 00:00:00.000|NULL|N
+INV|Individualized Instruction|1999-02-24 00:00:00.000|NULL|N
+LAB|Laboratory|2000-06-14 00:00:00.000|NULL|N
+LEC|Regular Classes without Lab|2000-06-14 00:00:00.000|NULL|N
+LEL|Regular classes with Incorporated Lab|2000-06-14 00:00:00.000|2013-02-08 00:00:00.000|N
+OTH|Other|1999-02-24 00:00:00.000|NULL|N
+SUP|Supervision at Remote Sites|1999-02-24 00:00:00.000|NULL|N
+THE|Thesis Credit|1999-02-24 00:00:00.000|NULL|N

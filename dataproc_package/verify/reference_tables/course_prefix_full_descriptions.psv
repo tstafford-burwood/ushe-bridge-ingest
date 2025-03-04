@@ -1,0 +1,1171 @@
+inst|iname|crs_sbj|description
+3671|DSU|ACCT|Accounting
+3671|DSU|ANTH|Anthropology
+3671|DSU|ART|Art
+3671|DSU|ARTH|Art History
+3671|DSU|ASC|Academic Support
+3671|DSU|ASL|American Sign Language
+3671|DSU|AUTO|Automotive
+3671|DSU|BIOL|Biology
+3671|DSU|BUS|Business
+3671|DSU|CE|Continuing Education
+3671|DSU|CED|Community Education
+3671|DSU|CHEM|Chemistry
+3671|DSU|CHIN|Chinese
+3671|DSU|CIS|Computer Information Systems
+3671|DSU|CIT|Computer Information Tech
+3671|DSU|CJ|Criminal Justice
+3671|DSU|COMM|Communication
+3671|DSU|COMP|Computer Skills
+3671|DSU|COOP|Co-operative Education
+3671|DSU|CS|Computer Science
+3671|DSU|DANC|Dance
+3671|DSU|DES|Digital Design
+3671|DSU|DHYG|Dental Hygiene
+3671|DSU|ECON|Economics
+3671|DSU|EDTL|Educ Online Teaching & Learn
+3671|DSU|EDUC|Education
+3671|DSU|ELED|Elementary Education
+3671|DSU|EMS|Emergency Medical Services
+3671|DSU|ENGL|English
+3671|DSU|ENGR|Engineering
+3671|DSU|ENVS|Environmental Science
+3671|DSU|ESL|English as a Second Language
+3671|DSU|ESOL|English Speakers - Other Lang
+3671|DSU|FCS|Family & Consumer Sciences
+3671|DSU|FIN|Finance
+3671|DSU|FREN|French
+3671|DSU|GCOM|Graphic Arts Communications
+3671|DSU|GEO|Geology
+3671|DSU|GEOG|Geography
+3671|DSU|GERM|German
+3671|DSU|HIST|History
+3671|DSU|HLOC|Health Occupations
+3671|DSU|HON|Honors
+3671|DSU|HUM|Humanities
+3671|DSU|ICL|Inst of Continued Learning
+3671|DSU|INTS|Integrated Studies
+3671|DSU|IT|Information Technology
+3671|DSU|JAPN|Japanese
+3671|DSU|LIB|Library
+3671|DSU|MATH|Mathematics
+3671|DSU|MGMT|Management
+3671|DSU|MILS|Military Science
+3671|DSU|MKTG|Marketing
+3671|DSU|MLS|Medical Lab Science
+3671|DSU|MUSC|Music
+3671|DSU|NFS|Nutrition & Food Science
+3671|DSU|NURS|Nursing
+3671|DSU|OPER|Operations Management
+3671|DSU|PBC|Placement Boot Camp
+3671|DSU|PEHR|Physical Ed. Health & Rec
+3671|DSU|PHIL|Philosophy
+3671|DSU|PHLB|Phlebotomy
+3671|DSU|PHYS|Physics
+3671|DSU|POLS|Political Science
+3671|DSU|PSY|Psychology
+3671|DSU|PTA|Physical Therapist Assistant
+3671|DSU|RADT|Medical Radiography
+3671|DSU|RESP|Respiratory Therapy
+3671|DSU|SAB|Study Abroad
+3671|DSU|SCED|Secondary Education
+3671|DSU|SCI|Science
+3671|DSU|SOC|Sociology
+3671|DSU|SPAN|Spanish
+3671|DSU|SSC|Student Service Courses
+3671|DSU|STAT|Statistics
+3671|DSU|SURG|Surgical Technology
+3671|DSU|SW|Social Work
+3671|DSU|TECH|Technology
+3671|DSU|THEA|Theatre
+3671|DSU|TRAV|Travel Systems
+3671|DSU|VT|Visual Technologies
+3671|DSU|WEB|Web Design & Development
+3675|UU|ACCTG|Accounting
+3675|UU|AEROS|Aerospace Studies
+3675|UU|ANAT|Neurobiology And Anatomy
+3675|UU|ANES|Anesthesiology
+3675|UU|ANTH|Anthropology
+3675|UU|ARAB|Arabic
+3675|UU|ARCH|Architecture
+3675|UU|ART|Art
+3675|UU|ARTH|Art History
+3675|UU|ASL|American Sign Language
+3675|UU|ASTP|Asian Studies
+3675|UU|ASTR|Astronomy
+3675|UU|ATHL|Athletics
+3675|UU|ATMOS|Atmospheric Sciences
+3675|UU|BALLE|Ballet
+3675|UU|BIO C|Biochemistry
+3675|UU|BIOEN|Bioengineering
+3675|UU|BIOL|Biology
+3675|UU|BLCHM|Biological Chemistry
+3675|UU|BMI|Biomedical Informatics
+3675|UU|BSH|Behavioral Science And Health
+3675|UU|BUS|Business Administration
+3675|UU|CAMB|Cambodian
+3675|UU|CERM|Ceramics
+3675|UU|CH EN|Chemical Engineering
+3675|UU|CHEM|Chemistry
+3675|UU|CHIN|Chinese
+3675|UU|CL CV|Classical Civilization
+3675|UU|CLCS|Comp Literary & Cultural Stds
+3675|UU|CMP|City & Metropolitan Planning
+3675|UU|COMM|Communication
+3675|UU|COPTC|Coptic Studies
+3675|UU|CS|Computer Science
+3675|UU|CSD|Communication Sci & Disorders
+3675|UU|CTLE|Center For Teaching & Learning
+3675|UU|CVEEN|Civil And Environmental Engg
+3675|UU|DANC|Modern Dance
+3675|UU|DENT|Dentistry
+3675|UU|DERM|Dermatology
+3675|UU|DES|Design
+3675|UU|DRAW|Drawing
+3675|UU|EAE|Entertainment Arts & Engg
+3675|UU|EAS|English For Academic Success
+3675|UU|ECE|Electrical & Computer Engg
+3675|UU|ECON|Economics
+3675|UU|ECS|Education, Culture And Society
+3675|UU|ED PS|Educational Psychology
+3675|UU|EDU|Education
+3675|UU|EHUM|Environmental Humanities
+3675|UU|ELP|Educational Leadership & Policy
+3675|UU|ENGIN|Engineering
+3675|UU|ENGL|English
+3675|UU|ENTP|Entrepreneurship
+3675|UU|ENVST|Environmental Studies
+3675|UU|ESL|English Second Language
+3675|UU|ESS|Exercise And Sport Science
+3675|UU|ESSF|Ess Fitness Courses
+3675|UU|ETHNC|Ethnic Studies
+3675|UU|FA|Fine Arts
+3675|UU|FCS|Family And Consumer Studies
+3675|UU|FILM|Film Studies
+3675|UU|FINAN|Finance
+3675|UU|FP MD|Family And Preventive Medicine
+3675|UU|FRNCH|French
+3675|UU|GEO|Geology And Geophysics
+3675|UU|GEOG|Geography
+3675|UU|GERM|German
+3675|UU|GERON|Gerontology
+3675|UU|GNDR|Gender Studies
+3675|UU|GREEK|Greek
+3675|UU|H EDU|Health Promotion & Education
+3675|UU|H GEN|Human Genetics
+3675|UU|HEBR|Hebrew
+3675|UU|HINDI|Hindi
+3675|UU|HIST|History
+3675|UU|HNKLY|Hinckley Institute
+3675|UU|HONOR|Honors Program
+3675|UU|HSP|Health, Society And Policy
+3675|UU|HUM|Humanities
+3675|UU|IAGE|Miage
+3675|UU|INTMD|Internal Medicine
+3675|UU|IS|Information Systems
+3675|UU|ITAL|Italian
+3675|UU|JAPAN|Japanese
+3675|UU|KOREA|Korean
+3675|UU|LANG|Languages And Literature
+3675|UU|LAS|Latin American Studies
+3675|UU|LATIN|Latin
+3675|UU|LAW|Law
+3675|UU|LDRSP|Leadership
+3675|UU|LEAP|Leap Program
+3675|UU|LING|Linguistics
+3675|UU|MATH|Mathematics
+3675|UU|MBA|Master Business Admin
+3675|UU|MBIOL|Molecular Biology
+3675|UU|MD CH|Pharmacy - Medicinal Chem
+3675|UU|MD ID|Medicine, Interdepartmentl
+3675|UU|MD LB|Medical Laboratory Science
+3675|UU|MDCRC|Clinical Research Center
+3675|UU|ME EN|Mechanical Engineering
+3675|UU|MET E|Metallurgical Engineering
+3675|UU|MG EN|Mining Engineering
+3675|UU|MGT|Management
+3675|UU|MHA|Healthcare Administration
+3675|UU|MID E|Middle East Studies
+3675|UU|MIL S|Military Science
+3675|UU|MKTG|Marketing
+3675|UU|MSE|Materials Science And Engg
+3675|UU|MST|Master Of Science & Technology
+3675|UU|MUSC|Music
+3675|UU|NAHTL|Nahuatl
+3675|UU|NAVJO|Navajo
+3675|UU|NEURO|Neurology
+3675|UU|NEUSC|Neuroscience
+3675|UU|NSURG|Neurosurgery
+3675|UU|NUCL|Nuclear Engineering
+3675|UU|NURS|Nursing
+3675|UU|NUTR|Nutrition
+3675|UU|NV SC|Naval Science
+3675|UU|OBST|Obstetrics
+3675|UU|OC TH|Occupational Therapy
+3675|UU|OIS|Operations And Information Sys
+3675|UU|ONCSC|Oncological Sciences
+3675|UU|OPHTH|Ophthalmology
+3675|UU|ORTHO|Orthopedics
+3675|UU|PADMN|Public Administration
+3675|UU|PATH|Pathology
+3675|UU|PCS|Peace And Conflict Studies
+3675|UU|PCTH|Pharmacotherapy
+3675|UU|PED|Pediatrics
+3675|UU|PERS|Persian
+3675|UU|PH MD|Phys Med & Rehabilitation
+3675|UU|PH TH|Physical Therapy
+3675|UU|PH TX|Pharmacology And Toxicology
+3675|UU|PHARM|Pharmacy
+3675|UU|PHCEU|Pharmaceutics & Pharmaceu Chem
+3675|UU|PHIL|Philosophy
+3675|UU|PHYS|Physics
+3675|UU|PHYSL|Physiology
+3675|UU|POLS|Political Science
+3675|UU|PRT|Parks, Recreation And Tourism
+3675|UU|PRTL|Prt Outdoor Adventure - Land
+3675|UU|PRTS|Prt Outdoor Adventure - Snow
+3675|UU|PRTW|Prt Outdoor Adventure - Water
+3675|UU|PSHTO|Pashto
+3675|UU|PSY|Psychology
+3675|UU|PSYCT|Psychiatry
+3675|UU|PTGSE|Portuguese
+3675|UU|PUBPL|Public Policy
+3675|UU|QUECH|Quechua
+3675|UU|RDLGY|Radiology
+3675|UU|RDONC|Radiation Oncology
+3675|UU|REDEV|Real Estate Development
+3675|UU|RELS|Religious Studies
+3675|UU|RHSCI|Rehabilitation Science
+3675|UU|RUSS|Russian
+3675|UU|SBS|Social And Behavioral Science
+3675|UU|SOC|Sociology
+3675|UU|SP ED|Special Education
+3675|UU|SPAN|Spanish
+3675|UU|SR EL|Senior Electives
+3675|UU|STAT|Statistics
+3675|UU|STRAT|Strategy
+3675|UU|SURG|Surgery
+3675|UU|SUST|Sustainability
+3675|UU|SW|Social Work
+3675|UU|THEA|Theatre
+3675|UU|TURK|Turkish
+3675|UU|UC|Univ College Academic Advising
+3675|UU|UGS|Undergraduate Studies
+3675|UU|URBPL|Urban Planning
+3675|UU|UROP|Undergrad Research
+3675|UU|UUHSC|Health Sciences Center
+3675|UU|VIET|Vietnamese
+3675|UU|WRTG|Writing Prog
+3677|USU|ACCT|Accounting
+3677|USU|ACTG|Accounting
+3677|USU|ADVS|Animal/Dairy/Veterinary Sci.
+3677|USU|AG|Argiculture
+3677|USU|ANTH|Anthropology
+3677|USU|APEC|Applied Economics
+3677|USU|APPR|Electrical Apprentice
+3677|USU|ARBC|Arabic
+3677|USU|ART|Art/Art Studies, General
+3677|USU|ARTH|Art History
+3677|USU|AS|Airforce ROTC
+3677|USU|ASTE|Agricultural Systems Tech
+3677|USU|AUTO|Automobile/Auto Mech Tech/Thn
+3677|USU|AV|Aircraft Maintenance
+3677|USU|BCCM|Building Const Finsh/Mgmt/Insp
+3677|USU|BCIS|Business Computer Info Systems
+3677|USU|BENG|Biological Engineering
+3677|USU|BHIS|Medical Coding
+3677|USU|BIOL|Biology
+3677|USU|BUS|Accounting
+3677|USU|BUSN|Business/Commerce General
+3677|USU|CCA|Arts
+3677|USU|CEE|Civil and Environmental Engineering
+3677|USU|CHEM|Chemistry
+3677|USU|CHIN|Chinese
+3677|USU|CHSS|Humanities
+3677|USU|CJ|Criminal Justice
+3677|USU|CLAS|Classics
+3677|USU|CMST|Communication Studies
+3677|USU|COMD|Deaf Education
+3677|USU|COST|Cosmetology/Cosmetologist Gen
+3677|USU|CS|Computer Science
+3677|USU|DANC|Dance
+3677|USU|DSME|Diesel Mechanics Tech/Techn
+3677|USU|ECE|Electrical Engineering
+3677|USU|ECN|Economics
+3677|USU|EDDT|CAD/CADD Draft/Design Tech
+3677|USU|EDUC|Education, General
+3677|USU|EED|Engineering Education
+3677|USU|ELED|Elementary Education
+3677|USU|EMTH|Elementary Education
+3677|USU|ENGL|English
+3677|USU|ENGR|Engineering
+3677|USU|ENVS|Environment and Society
+3677|USU|ESOL|Teach Engl As a Second/Foreign
+3677|USU|ETE|Engineering Technology Ed
+3677|USU|FCHD|Family, Consumer, Human Develo
+3677|USU|FCSE|Family & Consumer Sciences Ed
+3677|USU|FIN|Finance
+3677|USU|FREN|French
+3677|USU|GEO|Geology
+3677|USU|GEOG|Geography
+3677|USU|GERM|German
+3677|USU|GRK|Ancient Greek
+3677|USU|HASS|Humanities
+3677|USU|HEAL|Health/Medical Preparatory Pro
+3677|USU|HEP|Health Education Promotion
+3677|USU|HETR|Constrc/Heavy Equip/Earthmovin
+3677|USU|HIST|History
+3677|USU|HONR|Honors
+3677|USU|ID|Interior Design
+3677|USU|IELI|Intensive English Studies
+3677|USU|INST|Instructional Technology
+3677|USU|IOGP|Political Science
+3677|USU|ITAL|Italian
+3677|USU|ITDS|Interdisciplinary Studies
+3677|USU|ITLS|Instructional Tech&Learning Sc
+3677|USU|JAPN|Japanese
+3677|USU|JCOM|Jounalism
+3677|USU|KOR|Korean
+3677|USU|LAEP|Landscape Arch & Envi Planning
+3677|USU|LANG|Language Arts
+3677|USU|LATN|Latin
+3677|USU|LATS|Political Science
+3677|USU|LING|Linguistics
+3677|USU|MACH|Mandarin Chinese
+3677|USU|MAE|Mechanical Engineering
+3677|USU|MATH|Mathematics
+3677|USU|MGT|Management
+3677|USU|MINT|Mining Tech/Technician
+3677|USU|MIS|Management Information Systems
+3677|USU|MLT|Clinical Biology
+3677|USU|MSL|Military Science
+3677|USU|MUSC|Music
+3677|USU|MUSM|Museology/Museum Studies
+3677|USU|NAV|Navajo
+3677|USU|NDFS|Nutrition, Dietetics &Food Sci
+3677|USU|NEPA|NEPA Certificate Program
+3677|USU|NR|Natural Resources
+3677|USU|NURS|Nursing
+3677|USU|OSS|Management Information Systems
+3677|USU|PE|Physical Education
+3677|USU|PEP|Human Movement Science
+3677|USU|PFP|Financial Planning
+3677|USU|PHIL|Philosophy
+3677|USU|PHYS|Physiology
+3677|USU|POLS|Political Science
+3677|USU|PORT|Portuguese
+3677|USU|PRP|Parks and Recreation
+3677|USU|PSC|Plant and Soil Conservation
+3677|USU|PSY|Psychology
+3677|USU|PUBH|Public Health
+3677|USU|REH|Rehabilitation
+3677|USU|RELS|Religious Studies
+3677|USU|RUSS|Russian
+3677|USU|SCED|Science Education
+3677|USU|SCI|Science
+3677|USU|SLSC|Soil Science
+3677|USU|SOC|Sociology
+3677|USU|SPAN|Spanish
+3677|USU|SPCH|Speech Communication
+3677|USU|SPED|Special Education & Teaching
+3677|USU|STAT|Statistics
+3677|USU|SW|Social Work
+3677|USU|TEAL|Teacher Education
+3677|USU|TEE|Technology and Engineering Education
+3677|USU|TEPD|Teacher Education
+3677|USU|THEA|Dramatic/Theatre Arts & Stg Cr
+3677|USU|USU|General Education
+3677|USU|VM|Veterinary Medicine
+3677|USU|WATS|Watershed Science
+3677|USU|WELD|Welding Technology/Welder
+3677|USU|WGS|Women and Gender Studies
+3677|USU|WILD|Wildlife
+3678|SUU|AA|Arts Administration
+3678|SUU|ACCT|Accounting
+3678|SUU|ADVS|Advising & Mentoring
+3678|SUU|AGSC|Agricultural Science
+3678|SUU|ANTH|Anthropology
+3678|SUU|ART|Art
+3678|SUU|ARTH|Art History
+3678|SUU|BA|Business Administration
+3678|SUU|BE|Business Education
+3678|SUU|BIOL|Biology
+3678|SUU|CCET|CAD/CAM Engineering Technology
+3678|SUU|CHEM|Chemistry
+3678|SUU|CHIN|Chinese
+3678|SUU|CIET|Computing, Int Engrng & Math
+3678|SUU|CJ|Criminal Justice
+3678|SUU|CM|Construction Management
+3678|SUU|COMM|Communication
+3678|SUU|CPM|Public Management
+3678|SUU|CPS|Continuing & Prof Studies
+3678|SUU|CSIA|Cyber Security&Info Assurance
+3678|SUU|CSIS|Computer Science/Info Systems
+3678|SUU|DANC|Dance
+3678|SUU|ECED|Early Childhood Education
+3678|SUU|ECON|Economics
+3678|SUU|EDRG|Education Reading
+3678|SUU|EDUC|Education
+3678|SUU|EESL|ESL Education
+3678|SUU|EET|Electronics Engineering Tech
+3678|SUU|ELED|Elementary Education
+3678|SUU|ELPP|Educational Leadershp Prep Pgm
+3678|SUU|ENGL|English
+3678|SUU|ENGR|Engineering
+3678|SUU|ESL|English as a Second Language
+3678|SUU|FIN|Finance
+3678|SUU|FLHD|Family Life & Human Dev
+3678|SUU|FREN|French
+3678|SUU|GEO|Geology
+3678|SUU|GEOG|Geography
+3678|SUU|GEOL|Geology
+3678|SUU|GERM|German
+3678|SUU|GREK|Greek
+3678|SUU|HIST|History
+3678|SUU|HONR|Honors
+3678|SUU|HRHM|Hotel, Resort & Hosp Mgmt
+3678|SUU|HSS|Humanities & Soc Science
+3678|SUU|HU|Humanities
+3678|SUU|LANG|Language
+3678|SUU|LATN|Latin
+3678|SUU|LM|Library Media
+3678|SUU|MATH|Mathematics
+3678|SUU|MGMT|Management
+3678|SUU|MILS|Military Science
+3678|SUU|MKTG|Marketing
+3678|SUU|MSFS|MS in Forensic Science
+3678|SUU|MUSC|Music
+3678|SUU|NFS|Nutrition and Food Science
+3678|SUU|NR|Natural Resources
+3678|SUU|NURS|Nursing
+3678|SUU|ORPT|Outdoor Rec, Parks & Tourism
+3678|SUU|PADM|Public Administration
+3678|SUU|PE|Physical Education
+3678|SUU|PHIL|Philosophy
+3678|SUU|PHYS|Physics
+3678|SUU|PILT|Pilot
+3678|SUU|PLGL|Paralegal
+3678|SUU|POLS|Political Science
+3678|SUU|PSCI|Physical Science
+3678|SUU|PSY|Psychology
+3678|SUU|PVA|Performing and Visual Arts
+3678|SUU|RANG|Range Management
+3678|SUU|SCED|Secondary Education
+3678|SUU|SCI|Science
+3678|SUU|SGCS|Graduate & Continuing Studies
+3678|SUU|SOC|Sociology
+3678|SUU|SOSC|Social Science
+3678|SUU|SPAN|Spanish
+3678|SUU|SPED|Special Education
+3678|SUU|SST|Shakespeare Studies
+3678|SUU|STIT|Short Term Intensive Training
+3678|SUU|TE|Technology Education
+3678|SUU|TECH|Technology
+3678|SUU|THEA|Theatre
+3678|SUU|UNIV|University Studies
+3678|SUU|WGS|Women / Gender Studies
+3679|SNOW|ACCT|Accounting
+3679|SNOW|ACCT|Business
+3679|SNOW|ACOM|Art and Graphics Communication
+3679|SNOW|ACOM|Art and Graphics Communication
+3679|SNOW|AGBS|Agri-Business
+3679|SNOW|AGBS|Agricultural Business
+3679|SNOW|AGBU|Agri-Business
+3679|SNOW|AGRI|Agriculture Science
+3679|SNOW|AHNA|Allied Health
+3679|SNOW|AHNA|Allied Health
+3679|SNOW|ANTH|Anthropology
+3679|SNOW|ARAB|Arabic Language
+3679|SNOW|ART|Art
+3679|SNOW|ARTH|Art
+3679|SNOW|ASL|Social Work
+3679|SNOW|AUTO|Automotive Technology
+3679|SNOW|AUTO|Transportation Technology
+3679|SNOW|AUTO|Transportation Technology
+3679|SNOW|BCCM|Building Const & Const Manag
+3679|SNOW|BCCM|Construction Technology
+3679|SNOW|BCCM|Traditional Bldg Skills Inst
+3679|SNOW|BIO|Biology
+3679|SNOW|BIOL|Biology
+3679|SNOW|BMGT|Business Management
+3679|SNOW|BT|Business Education
+3679|SNOW|BT|Business Technology
+3679|SNOW|BUED|Business Education
+3679|SNOW|BUS|Business
+3679|SNOW|CHEM|Chemistry
+3679|SNOW|CHIN|Foreign Languages
+3679|SNOW|CIS|Computer Information Systems
+3679|SNOW|CIS|Computer Information Systems
+3679|SNOW|CIS|Information Technology
+3679|SNOW|CIS|Information Technology
+3679|SNOW|CJ|Criminal Justice/Social Work
+3679|SNOW|CLA|Culinary Arts
+3679|SNOW|CLA|Services Technology
+3679|SNOW|CM|Construction Mangement
+3679|SNOW|CM|Construction Technology
+3679|SNOW|COMM|Communications
+3679|SNOW|COMM|Communications
+3679|SNOW|COOP|Cooperative Education
+3679|SNOW|COSB|Cosmetology/Barbering
+3679|SNOW|COSB|Services Technology
+3679|SNOW|COSB|Services Technology
+3679|SNOW|CRT|Collision Repair/Refinishing
+3679|SNOW|CRT|Criminal Justice/Social Work
+3679|SNOW|CS|Computer Science
+3679|SNOW|CS|Engineering & Computer Science
+3679|SNOW|DANC|Dance
+3679|SNOW|DMT|Diesel/Heavy Duty Mechanics
+3679|SNOW|DMT|Diesel/Heavy Duty Mechanics
+3679|SNOW|DMT|Transportation Technology
+3679|SNOW|DMT|Transportation Technology
+3679|SNOW|DRFT|Drafting Technology
+3679|SNOW|DRFT|Industrial Technology
+3679|SNOW|DRFT|Industrial Technology
+3679|SNOW|ECON|Economics
+3679|SNOW|EDUC|Education
+3679|SNOW|ENGL|English
+3679|SNOW|ENGR|Engineering
+3679|SNOW|ESL|English/Second Language
+3679|SNOW|FREN|Foreign Languages
+3679|SNOW|FREN|French Language
+3679|SNOW|FRM|Farm and Ranch Management
+3679|SNOW|GEO|Geology
+3679|SNOW|GEOG|Geography
+3679|SNOW|GEOG|Physical Science
+3679|SNOW|GERM|German Language
+3679|SNOW|GNST|General Studies
+3679|SNOW|GNST|General Studies
+3679|SNOW|HESC|Biology
+3679|SNOW|HESC|Health Science
+3679|SNOW|HFST|Home and Family Studies
+3679|SNOW|HIST|History
+3679|SNOW|HONR|Honors
+3679|SNOW|HUM|English
+3679|SNOW|HUM|Humanities
+3679|SNOW|INDM|Industrial Technology
+3679|SNOW|INDM|Industrial Technology
+3679|SNOW|ITAL|Italian
+3679|SNOW|JAPN|Foreign Languages
+3679|SNOW|JAPN|Japanese Language
+3679|SNOW|KORE|Korean
+3679|SNOW|MANF|Industrial Technology
+3679|SNOW|MANF|Industrial Technology
+3679|SNOW|MATH|Mathematics
+3679|SNOW|MTT|Industrial Technology
+3679|SNOW|MTT|Industrial Technology
+3679|SNOW|MTT|Machine Tool Technology
+3679|SNOW|MTT|Machine Tool Technology
+3679|SNOW|MUSC|Music
+3679|SNOW|NR|Geology
+3679|SNOW|NR|Natural Resources
+3679|SNOW|NURP|Allied Health
+3679|SNOW|NURP|Allied Health
+3679|SNOW|NURP|Practical Nursing (SCR)
+3679|SNOW|NURP|Practical Nursing (SCR)
+3679|SNOW|OLE|Outdoor Leadership/Entrepreneu
+3679|SNOW|OLE|Outdoor Leadership/Entrepreneu
+3679|SNOW|PE|Physical Education
+3679|SNOW|PHAR|Allied Health
+3679|SNOW|PHAR|Allied Health
+3679|SNOW|PHAR|Pharmacy
+3679|SNOW|PHAR|Pharmacy
+3679|SNOW|PHIL|Philosophy
+3679|SNOW|PHSC|Physical Science
+3679|SNOW|PHSC|Physics
+3679|SNOW|PHYS|Physics
+3679|SNOW|POLS|Political Science
+3679|SNOW|PSY|Psychology
+3679|SNOW|SOC|Sociology
+3679|SNOW|SPAN|Foreign Languages
+3679|SNOW|SPAN|Spanish Language
+3679|SNOW|SPED|Education
+3679|SNOW|SW|Criminal Justice/Social Work
+3679|SNOW|SW|Education
+3679|SNOW|SW|Social Work
+3679|SNOW|TBSI|Traditional Bldg Skills Inst
+3679|SNOW|TBSI|Traditional Bldg Skills Inst
+3679|SNOW|TESL|English/Second Language
+3679|SNOW|TESL|Teach English as Second Lang
+3679|SNOW|THEA|Theater Arts
+3679|SNOW|TSFL|English/Second Language
+3679|SNOW|TSFL|Sec/Foreign Lang
+3679|SNOW|WELD|Industrial Technology
+3679|SNOW|WELD|Industrial Technology
+3679|SNOW|WELD|Welding Technology
+3679|SNOW|WELD|Welding Technology
+3680|WSU|ACTG|Accounting
+3680|WSU|AERO|Aerospace
+3680|WSU|ANTH|Anthropology
+3680|WSU|ART|Art
+3680|WSU|ARTH|Art History
+3680|WSU|ASL|American Sign Language
+3680|WSU|ASTR|Astronomy
+3680|WSU|AT|Athletic Training
+3680|WSU|ATHL|Athletics
+3680|WSU|ATTC|Automotive Technology
+3680|WSU|AUSV|Automotive Service Technology
+3680|WSU|BIS|Bachelor Of Integrated Studies
+3680|WSU|BSAD|Business Administration
+3680|WSU|BTNY|Botany
+3680|WSU|CEC|CE Conferences
+3680|WSU|CEET|Electronics Engineering Tech
+3680|WSU|CELE|CE Leap Non-Credit
+3680|WSU|CEPR|CE Professional
+3680|WSU|CES|CE Specials
+3680|WSU|CETR|CE Travel
+3680|WSU|CHEM|Chemistry
+3680|WSU|CHF|Child and Family Studies
+3680|WSU|CHNS|Chinese
+3680|WSU|CJ|Criminal Justice
+3680|WSU|CLS|Clinical Laboratory Sciences
+3680|WSU|CMT|Construction Management Tech
+3680|WSU|COMM|Communication
+3680|WSU|CONC|Concurrent Enrollment
+3680|WSU|CS|Computer Science
+3680|WSU|DANC|Dance
+3680|WSU|DENT|Dental Science
+3680|WSU|DET|Design Engineering Technology
+3680|WSU|DGET|Design Graphics Engnrng Tech
+3680|WSU|DMS|Diagnostic Medical Sonography
+3680|WSU|ECON|Economics
+3680|WSU|EDUC|Education
+3680|WSU|EE|Electrical Engineering
+3680|WSU|EET|Electronic Engineering Tech
+3680|WSU|ENGL|English
+3680|WSU|ENGR|Engineering
+3680|WSU|ENTR|Entrepreneurship
+3680|WSU|ESL|English As A Second Language
+3680|WSU|FIN|Finance
+3680|WSU|FL|Foreign Language
+3680|WSU|FRCH|French
+3680|WSU|GEO|Geosciences
+3680|WSU|GEOG|Geography
+3680|WSU|GERT|Gerontology
+3680|WSU|GRMN|German
+3680|WSU|HAS|Health Administrative Services
+3680|WSU|HIM|Health Information Management
+3680|WSU|HIST|History
+3680|WSU|HLTH|Health
+3680|WSU|HNRS|Honors
+3680|WSU|HTHS|Health Sciences
+3680|WSU|IDT|Interior Design Technology
+3680|WSU|IST|Info Systems And Technology
+3680|WSU|ITLN|Italian
+3680|WSU|JPNS|Japanese
+3680|WSU|LEAP|Learning English/Acad Purposes
+3680|WSU|LIBS|Library Science
+3680|WSU|LING|Linguistics
+3680|WSU|MACC|Master of Accounting
+3680|WSU|MATH|Math
+3680|WSU|MBA|Masters Of Business Admin
+3680|WSU|MCJ|Masters Of Criminal Justice
+3680|WSU|MED|Masters Of Education
+3680|WSU|MENG|Master of Arts in English
+3680|WSU|MET|Mechanical Engineering Tech
+3680|WSU|MFET|Manufacturing Engineering Tech
+3680|WSU|MGMT|Management
+3680|WSU|MHA|Master of Health Administratio
+3680|WSU|MICR|Microbiology
+3680|WSU|MILS|Military Science
+3680|WSU|MKTG|Marketing
+3680|WSU|MLS|Medical Laboratory Sciences
+3680|WSU|MPC|Master of Prof Communication
+3680|WSU|MSAT|Master of Science in AT
+3680|WSU|MSN|Master's of Nursing
+3680|WSU|MSRS|Master's of Radiologic Science
+3680|WSU|MTAX|Master of Taxation
+3680|WSU|MTHE|Math Education
+3680|WSU|MUSC|Music
+3680|WSU|NAVS|Naval Science
+3680|WSU|NEUR|Neuroscience Program
+3680|WSU|NRSG|Nursing
+3680|WSU|NTM|Network Tech & Bus Multimedia
+3680|WSU|NUCM|Nuclear Medicine
+3680|WSU|NUTR|Nutrition
+3680|WSU|PAR|Paramedics
+3680|WSU|PE|Physical Education
+3680|WSU|PEP|Physical Education Professionl
+3680|WSU|PHIL|Philosophy
+3680|WSU|PHYS|Physics
+3680|WSU|POLS|Political Science
+3680|WSU|PS|Professional Sales
+3680|WSU|PSY|Psychology
+3680|WSU|PTGS|Portuguese
+3680|WSU|QUAN|Quantitative Analysis
+3680|WSU|RADT|Radiological Technology
+3680|WSU|RATH|Radiation Therapy
+3680|WSU|REC|Recreation
+3680|WSU|REST|Respiratory Therapy
+3680|WSU|SCM|Supply Chain Management
+3680|WSU|SOC|Sociology
+3680|WSU|SPAN|Spanish
+3680|WSU|SST|Sales And Service Technology
+3680|WSU|SW|Social Work
+3680|WSU|TBE|Telecommunication/Bus Educ
+3680|WSU|THEA|Theatre Arts
+3680|WSU|UNIV|University
+3680|WSU|WGS|Women and Gender Studies
+3680|WSU|WS|Women and Gender Studies
+3680|WSU|ZOOL|Zoology
+4027|UVU|ACC|Accounting
+4027|UVU|AERO|Aerospace Studies
+4027|UVU|AIST|American Indian Studies
+4027|UVU|AMST|American Studies
+4027|UVU|ANTH|Anthropology
+4027|UVU|APPR|Apprentice
+4027|UVU|ART|Art
+4027|UVU|ARTH|Art History
+4027|UVU|ASL|American Sign Language
+4027|UVU|ASTR|Astronomy
+4027|UVU|AUT|Auto Mechanics
+4027|UVU|AVSC|Aviation Science
+4027|UVU|BCCM|Bldg Constr and Constr Mgmt
+4027|UVU|BESC|Behavioral Science
+4027|UVU|BIOL|Biology
+4027|UVU|BIT|Building Inspection Technology
+4027|UVU|BMED|Business/Marketing Education
+4027|UVU|BOT|Botany
+4027|UVU|BTEC|Biotechnology
+4027|UVU|CA|Culinary Arts
+4027|UVU|CAW|Cabinetry and Archit Woodwork
+4027|UVU|CEBU|CCE Business
+4027|UVU|CECC|CCE Prof CEU and Certification
+4027|UVU|CECM|CCE Computers
+4027|UVU|CECO|CCE Communication
+4027|UVU|CECR|CCE Co Retreats-Outings-Trips
+4027|UVU|CEDE|CCE Driver Education
+4027|UVU|CEED|CCE Educators
+4027|UVU|CEFI|CCE Finance
+4027|UVU|CEHO|CCE Hobbie and Spcl Interest
+4027|UVU|CEHW|CCE Health and Wellness
+4027|UVU|CEPD|CCE Professional Development
+4027|UVU|CESM|CCE Self Management
+4027|UVU|CHEM|Chemistry
+4027|UVU|CHIN|Chinese
+4027|UVU|CHST|Chinese Studies
+4027|UVU|CINE|Cinema Studies
+4027|UVU|CJ|Criminal Justice
+4027|UVU|CLSS|College Success Studies
+4027|UVU|CMGT|Construction Management
+4027|UVU|CNST|Constitutional Studies
+4027|UVU|COMM|Communication
+4027|UVU|COMP|Computing
+4027|UVU|CRT|Collision Repair Technology
+4027|UVU|CS|Computer Science
+4027|UVU|DANC|Dance
+4027|UVU|DENT|Dental Hygiene
+4027|UVU|DGM|Digital Media
+4027|UVU|DMT|Diesel Mechanics
+4027|UVU|EART|Elect Automation-Robotic Tech
+4027|UVU|ECE|Electrical Comp Engineering
+4027|UVU|ECFS|Edu Child and Family Studies
+4027|UVU|ECON|Economics
+4027|UVU|EDEC|Edu Early Childhood Education
+4027|UVU|EDEL|Edu Elementary Education
+4027|UVU|EDSC|Edu Secondary Education
+4027|UVU|EDSP|Edu Special Education
+4027|UVU|EDUC|Education Curr and Instruction
+4027|UVU|EENG|Electrical Engineering
+4027|UVU|EGDT|Eng Graphics/Design Tech
+4027|UVU|ENGH|English Basic Composition
+4027|UVU|ENGL|English
+4027|UVU|ENGR|Engineering
+4027|UVU|ENST|Environmental Studies
+4027|UVU|ENVT|Environmental Management
+4027|UVU|ES|Emergency Services
+4027|UVU|ESAF|Emerg Serv Aircraft Resc FF
+4027|UVU|ESEC|Emergency Services Emerg Care
+4027|UVU|ESFF|Emergency Services FireFighter
+4027|UVU|ESFO|Emergency Services FireOfficer
+4027|UVU|ESL|English as a Second Lang
+4027|UVU|ESMG|Emergency Services Emerg Mgmt
+4027|UVU|ESWF|Emergency Services Wildlnd FF
+4027|UVU|EXSC|Exercise Science
+4027|UVU|FAC|Facilities Management
+4027|UVU|FAMS|Family Studies
+4027|UVU|FIN|Finance
+4027|UVU|FREN|French
+4027|UVU|FSCI|Forensic Science
+4027|UVU|GEO|Geology
+4027|UVU|GEOG|Geography
+4027|UVU|GER|German
+4027|UVU|GIS|Geographic Information Systems
+4027|UVU|GRK|Greek
+4027|UVU|HIST|History
+4027|UVU|HLTH|Community Health
+4027|UVU|HM|Hospitality Management
+4027|UVU|HONR|Honors
+4027|UVU|HUM|Humanities
+4027|UVU|HVAC|Heat Vent Air Conditioning
+4027|UVU|IDST|Interdisciplinary Studies Prog
+4027|UVU|IM|Information Management
+4027|UVU|INFO|Info Systems and Technology
+4027|UVU|IS|Integrated Studies
+4027|UVU|IT|Information Technology
+4027|UVU|JPNS|Japanese
+4027|UVU|LANG|Languages
+4027|UVU|LATN|Latin
+4027|UVU|LEGL|Legal Studies
+4027|UVU|MAT|Mathematics Developmental
+4027|UVU|MATH|Mathematics
+4027|UVU|MECH|Mechatronics Engineering Tech
+4027|UVU|METO|Meteorology
+4027|UVU|MGMT|Business Management
+4027|UVU|MICR|Microbiology
+4027|UVU|MILS|Military Science
+4027|UVU|MKTG|Marketing
+4027|UVU|MTT|Machine Tool Technology
+4027|UVU|MUSC|Music
+4027|UVU|NURS|Nursing
+4027|UVU|NUTR|Nutrition
+4027|UVU|PES|Physical Education Sports
+4027|UVU|PETE|Physical Education Teacher Ed
+4027|UVU|PHIL|Philosophy
+4027|UVU|PHSC|Physical Science
+4027|UVU|PHYS|Physics
+4027|UVU|PJST|Peace and Justice Studies
+4027|UVU|POLS|Political Science
+4027|UVU|PORT|Portuguese
+4027|UVU|PSY|Psychology
+4027|UVU|REC|Recreation
+4027|UVU|RLST|Religious Studies
+4027|UVU|RUS|Russian
+4027|UVU|SLSS|Student Leadership and Success
+4027|UVU|SOC|Sociology
+4027|UVU|SPAN|Spanish
+4027|UVU|STAT|Statistics
+4027|UVU|SUDC|Substance Use Disorder Counsel
+4027|UVU|SURV|Land Surveying
+4027|UVU|SW|Social Work
+4027|UVU|TECH|Technology Management
+4027|UVU|THEA|Theatre
+4027|UVU|UVST|University Studies
+4027|UVU|WELD|Welding Technology
+4027|UVU|ZOOL|Zoology
+4027|UVU|ZZZ|Other not real classes
+5220|SLCC|ACCT|Accounting
+5220|SLCC|ACR|Auto  Collision Repair
+5220|SLCC|AERO|Aerospace Studies (AF-ROTC)
+5220|SLCC|AMTT|Aviation Maintenance Tech.
+5220|SLCC|ANTH|Anthropology
+5220|SLCC|APPR|Apprenticeship
+5220|SLCC|AR|Auto Refinishing
+5220|SLCC|ARB|Arabic
+5220|SLCC|ARCH|Architectural Technology
+5220|SLCC|ART|Visual Art and Design
+5220|SLCC|ARTH|Art History
+5220|SLCC|ASL|ASL (Languages)
+5220|SLCC|ASLI|Amer Sign Lang/Interpreting
+5220|SLCC|AUTO|Automotive Technician
+5220|SLCC|AVAD|Aviation Administration
+5220|SLCC|BCCM|Bldg. Const./Const. Management
+5220|SLCC|BIOL|Biology
+5220|SLCC|BLA|Bricklayer's Apprenticeship
+5220|SLCC|BMAN|Biomanufacturing
+5220|SLCC|BRC|Barbering /Cosmetology
+5220|SLCC|BTEC|Biotechnology
+5220|SLCC|BUS|Business
+5220|SLCC|CCLA|Const Craft Skill Laborer Appr
+5220|SLCC|CEAB|Cont Ed Accelerated Block
+5220|SLCC|CEAE|Cont Ed Alternative Energy
+5220|SLCC|CEAL|Cont Ed Alternative Licensure
+5220|SLCC|CEAT|ATE
+5220|SLCC|CEBC|SBDC
+5220|SLCC|CECD|Computer Aided Design
+5220|SLCC|CECI|Cont Ed Competitive Intel
+5220|SLCC|CECO|Composites
+5220|SLCC|CECP|Cont Ed Creative Problem Solvi
+5220|SLCC|CECT|Cont Ed Contractor Training
+5220|SLCC|CECW|Computer Workshops
+5220|SLCC|CEDM|Digital Media
+5220|SLCC|CEEI|Continuing Ed Encore Institute
+5220|SLCC|CEEM|Cont Ed Energy Management
+5220|SLCC|CEEN|Civil/Environmentl Engineering
+5220|SLCC|CEET|Cont Ed Emergency Training
+5220|SLCC|CEEU|Continuing Ed Education Units
+5220|SLCC|CEGA|Cont Ed Green Academy
+5220|SLCC|CEGC|Cont Ed Green Construction
+5220|SLCC|CEGE|Cont Ed General Education
+5220|SLCC|CEGM|Cont Ed Natural Gas Measure
+5220|SLCC|CEGN|Cont Ed Genealogy
+5220|SLCC|CEHI|Cont Ed Health Information
+5220|SLCC|CEHS|Cont Ed Human Services
+5220|SLCC|CEHW|Cont Ed Health Wellness
+5220|SLCC|CEHZ|Cont Ed Cert Pool Operator
+5220|SLCC|CEIB|Cont Ed International Business
+5220|SLCC|CEIP|Cont Ed Inst Public Safety
+5220|SLCC|CEIS|Cont Ed Library Info Science
+5220|SLCC|CEKM|Knowledge Management
+5220|SLCC|CELN|Cont Ed Lineman
+5220|SLCC|CELS|Cont Ed Library Info Science
+5220|SLCC|CEMA|Cont Ed Medical Assisting
+5220|SLCC|CEMD|Cont Ed Medical Device
+5220|SLCC|CEME|Cont Ed Metering
+5220|SLCC|CEMG|Ed2Go Management Classes
+5220|SLCC|CEMS|Continuing Education Misc.
+5220|SLCC|CEPP|Cont Ed Positive Psychology
+5220|SLCC|CEPR|Cont Ed CPR Class
+5220|SLCC|CEPS|Cont Ed Plastics
+5220|SLCC|CERT|Cont Ed Comm Equip Repair Tech
+5220|SLCC|CESB|Cont Ed Small Bus Develop Ctr
+5220|SLCC|CESG|Cont Ed SmartGrid/Elect Sector
+5220|SLCC|CESL|Cont Ed Service Learning
+5220|SLCC|CESN|Cont Ed Substation
+5220|SLCC|CESO|Cont Ed Sonography
+5220|SLCC|CESP|Cont Ed State Partnership
+5220|SLCC|CESS|Safety & Emissions
+5220|SLCC|CEST|Short Term Intensive Training
+5220|SLCC|CESU|Cont Ed Sustainability
+5220|SLCC|CETG|Ed 2 Go
+5220|SLCC|CETR|Transportation Training
+5220|SLCC|CETS|Cont Ed Health Info Tech Sup
+5220|SLCC|CHE|Chemical Engineering
+5220|SLCC|CHEF|Culinary Arts
+5220|SLCC|CHEM|Chemistry
+5220|SLCC|CHI|Chinese
+5220|SLCC|CIS|Computer Information Systems
+5220|SLCC|CJ|Criminal Justice
+5220|SLCC|CMA|Cement Masons Apprenticeship
+5220|SLCC|CMGT|Construction Management
+5220|SLCC|CMI|Cement Mason Ind. Appren.
+5220|SLCC|COMM|Communication
+5220|SLCC|CPE|Computer Engineering
+5220|SLCC|CPI|Carpentry Independent
+5220|SLCC|CPS|Creative Problem Solving
+5220|SLCC|CS|Computer Science
+5220|SLCC|CSIS|Computer Sci. & Info. Systems
+5220|SLCC|CTEL|CTE Leadership
+5220|SLCC|DANC|Dance
+5220|SLCC|DE|Developmental Education
+5220|SLCC|DH|Dental Hygiene
+5220|SLCC|DIAL|Dialysis Technician
+5220|SLCC|DISP|Aircraft Dispatcher
+5220|SLCC|DMS|Diagnostic Medical Sonography
+5220|SLCC|DST|Diesel Systems Technology
+5220|SLCC|DSTA|DST Apprenticeship
+5220|SLCC|EBT|e-Business Technology
+5220|SLCC|ECON|Economics
+5220|SLCC|EDDT|Engineering Design/Drafting
+5220|SLCC|EDU|Education
+5220|SLCC|EE|Electrical Engineering
+5220|SLCC|EET|Electronics Engineering Tech
+5220|SLCC|EGMT|Energy Management
+5220|SLCC|ELEC|Electricity
+5220|SLCC|ELET|Electronic Technology
+5220|SLCC|ELI|Elec. Independent Apprentice.
+5220|SLCC|ELTA|Apprentice Electronics
+5220|SLCC|ELTR|Railroad Electronics
+5220|SLCC|ENGL|English
+5220|SLCC|ENGR|Engineering
+5220|SLCC|ENVT|Environmental Technology
+5220|SLCC|ESL|English-as-a-Second-Language
+5220|SLCC|EST|Esthetics
+5220|SLCC|ETHS|Ethnic Studies
+5220|SLCC|EVNT|Event Management
+5220|SLCC|FA|Fine Arts
+5220|SLCC|FASH|Fashion Institute
+5220|SLCC|FHS|Family and Human Studies
+5220|SLCC|FIN|Finance and Credit
+5220|SLCC|FLM|Film
+5220|SLCC|FMTA|Facilities Maintenance Tech.
+5220|SLCC|FRN|French
+5220|SLCC|GEN|Genealogy
+5220|SLCC|GEO|Geology
+5220|SLCC|GEOG|Geography
+5220|SLCC|GER|German
+5220|SLCC|HCCA|Heavy Civil Carpenter Appr
+5220|SLCC|HIST|History
+5220|SLCC|HIT|Health Information Technology
+5220|SLCC|HLAC|Health and Lifetime Activities
+5220|SLCC|HLTH|Health and Wellness
+5220|SLCC|HOLD|Course to HOLD Classrms. Sched
+5220|SLCC|HS|Health Science
+5220|SLCC|HSEM|Homeland SecurityEmergency Mgt
+5220|SLCC|HSS|Human Services Specialist
+5220|SLCC|HUMA|Humanities
+5220|SLCC|HVAC|Heat., Vent. & Air-Condition.
+5220|SLCC|IND|Industry
+5220|SLCC|INST|Instrumentation
+5220|SLCC|INTD|Interior Design
+5220|SLCC|INTL|International
+5220|SLCC|INTR|ASL/English Interpreting
+5220|SLCC|ISCI|Competitive Intelligence
+5220|SLCC|ISIS|Information Studies
+5220|SLCC|ISKM|Knowledge Management
+5220|SLCC|ITL|Italian
+5220|SLCC|JPN|Japanese
+5220|SLCC|KABB|ABE Reading/Math
+5220|SLCC|KABE|Adult Basic Education
+5220|SLCC|KABM|ABE Math
+5220|SLCC|KABR|ABE Reading
+5220|SLCC|KACC|Air Conditioning/Heat/Refrig.
+5220|SLCC|KACK|Accounting Clerk
+5220|SLCC|KACT|Accounting Clerk
+5220|SLCC|KADC|Administrative Clerk
+5220|SLCC|KAGN|Automotive Gen Service Tech
+5220|SLCC|KAIT|Automation & Instrumentation
+5220|SLCC|KALL|Integrated Learning Lab
+5220|SLCC|KAOS|Admin. Office Specialist
+5220|SLCC|KAPS|Computer Applications
+5220|SLCC|KASV|ASVAB Test Prep
+5220|SLCC|KATO|Automotive Technician
+5220|SLCC|KATT|Automotive Undercar Tech
+5220|SLCC|KBA1|Business Admin Suppport I
+5220|SLCC|KBA2|Business Admin Support II
+5220|SLCC|KBHR|Basic Health Records
+5220|SLCC|KCDL|CDL Learner's Permit
+5220|SLCC|KCMA|Clinical Medical Assisting
+5220|SLCC|KCMS|Computer Support Specialist
+5220|SLCC|KCNA|Certified Nursing Assistant
+5220|SLCC|KCSP|Central Sterilization Techn
+5220|SLCC|KCSR|Customer Service/Receptionist
+5220|SLCC|KCUL|Culinary Fundamentals
+5220|SLCC|KCUP|Computer Upgrade & Repair Tech
+5220|SLCC|KECT|Electronic Communications Tech
+5220|SLCC|KEET|Electronics Engineer Tech
+5220|SLCC|KELA|Electronics Assembly
+5220|SLCC|KEMA|Electromechanic Assembly Tech
+5220|SLCC|KESL|English as a Second Language
+5220|SLCC|KET2|Electronics Test Technician
+5220|SLCC|KFLS|Fundamental Laboratory Science
+5220|SLCC|KFLT|Fork Lift Training
+5220|SLCC|KFND|Fundamental Skills
+5220|SLCC|KFOS|Front Office Support
+5220|SLCC|KGED|GED Test Preparation
+5220|SLCC|KGRD|Graphic Designer
+5220|SLCC|KHUC|Health Unit Clerk/Coordinator
+5220|SLCC|KHVT|Heavy Duty Diesel Maintenance
+5220|SLCC|KITN|Internet Technician Networking
+5220|SLCC|KLNA|Linux Network Administrator
+5220|SLCC|KMAT|Manual Machinist
+5220|SLCC|KMCB|Medical Coding & Billing
+5220|SLCC|KMCH|Production Machinist
+5220|SLCC|KMCP|Medical Coding Procedures
+5220|SLCC|KMDT|Media Design Technology
+5220|SLCC|KMLT|Medical Office lab Technician
+5220|SLCC|KMNA|Network Administrator
+5220|SLCC|KMOA|Medical Office Administration
+5220|SLCC|KMTH|Math I
+5220|SLCC|KNEG|Network Engineer (MCSE)
+5220|SLCC|KNIT|Network Infrastructure Tech
+5220|SLCC|KNNA|Nutrition Assistant
+5220|SLCC|KNRS|Nurse Assistant
+5220|SLCC|KNTA|Network Administrator (MSA)
+5220|SLCC|KNTE|Network Engineer (MCSE)
+5220|SLCC|KNWE|Network Engineer (MCSE)
+5220|SLCC|KOFC|Office Clerk
+5220|SLCC|KOLL|Computer Learning Lab
+5220|SLCC|KOMP|Composities Technology
+5220|SLCC|KPDR|Professional Truck Driving
+5220|SLCC|KPHL|Phlebotomy Technician
+5220|SLCC|KPHT|Pharmacy Technician
+5220|SLCC|KVSL|Vocational ESL
+5220|SLCC|KWBD|Web Site Designer
+5220|SLCC|KWLD|Welding
+5220|SLCC|KWPR|Web Programmer
+5220|SLCC|KWRK|Workplace Relations
+5220|SLCC|KYBD|Youth Build Grant
+5220|SLCC|LAND|Appr. Landscape Technology
+5220|SLCC|LANG|Transfer Cr - Foreign Lang
+5220|SLCC|LE|Learning Enhancement
+5220|SLCC|LINE|Lineman Apprenticeship
+5220|SLCC|LIS|Library Information Science
+5220|SLCC|MA|Medical Assistant
+5220|SLCC|MATH|Mathematics
+5220|SLCC|MCCT|Machining CNC/CAM Technology
+5220|SLCC|MEEN|Mechanical Engineering
+5220|SLCC|MET|Meteorology
+5220|SLCC|METE|Meter Apprenticeship
+5220|SLCC|MGT|Management
+5220|SLCC|MKTG|Marketing
+5220|SLCC|MLS|Military Science Army ROTC
+5220|SLCC|MORT|Mortuary Science
+5220|SLCC|MOTO|Motorcycle/Outdoor Power Equip
+5220|SLCC|MSE|Materials Science Engineering
+5220|SLCC|MUSC|Music
+5220|SLCC|NDT|Non-Destructive Testing Tech.
+5220|SLCC|NSG|Nursing
+5220|SLCC|OPT|Optician/Ophthalmic Technican
+5220|SLCC|OTA|Occupational Therapy Assistant
+5220|SLCC|PED|Paraeducation
+5220|SLCC|PFA|Plumber/Pipefitter Apprentice.
+5220|SLCC|PHAR|Pharmacy Technician
+5220|SLCC|PHIL|Philosophy
+5220|SLCC|PHYS|Physics
+5220|SLCC|PILT|Professional Pilot
+5220|SLCC|PLI|Appren. Plumbing Independent
+5220|SLCC|PLS|Paralegal Studies
+5220|SLCC|POLS|Political Science
+5220|SLCC|POR|Portugese
+5220|SLCC|PSY|Psychology
+5220|SLCC|PTA|Physical Therapist  Assistant
+5220|SLCC|RADS|Radiologic Technology
+5220|SLCC|RDG|Reading
+5220|SLCC|RELS|Religious Studies
+5220|SLCC|RFA|Appren. Pipefitter/Refrigratn.
+5220|SLCC|RUS|Russian
+5220|SLCC|SHA|Stagehands Apprenticeship
+5220|SLCC|SLSS|Student Leader & Success Study
+5220|SLCC|SOC|Sociology
+5220|SLCC|SPN|Spanish
+5220|SLCC|SUBE|Substation Apprenticeship
+5220|SLCC|SURG|Surgical Technology
+5220|SLCC|SVT|Surveying Technology
+5220|SLCC|SW|Social Work
+5220|SLCC|TECH|Technology
+5220|SLCC|TEST|Test Subject
+5220|SLCC|THEA|Theatre
+5220|SLCC|TNG|Tongan
+5220|SLCC|TRVL|Travel Planner
+5220|SLCC|VET|Veterinary Technician
+5220|SLCC|VOC|Transfer Cr - Voc Elec
+5220|SLCC|WLD|Welding
+5220|SLCC|WLDA|Welding Apprenticeship
+5220|SLCC|WRTG|Writing
+63|USUE-DWE|ACCT|Accounting
+63|USUE-DWE|ACTG|Accounting
+63|USUE-DWE|AUTO|Automotive
+63|USUE-DWE|BASI|Business Administrative Support I
+63|USUE-DWE|BASII|Business Administrative Support II
+63|USUE-DWE|BCCM|Building Construction
+63|USUE-DWE|BCIS|Business Computer Information Science
+63|USUE-DWE|BTEC|Business Technical Education
+63|USUE-DWE|BUSN|Business
+63|USUE-DWE|CNA|Certified Nursing Assistant
+63|USUE-DWE|CNAS|Certified Nursing Assistant
+63|USUE-DWE|CNG|Compressed Natual Gas Training
+63|USUE-DWE|COMM|Communications
+63|USUE-DWE|CONS|Construction
+63|USUE-DWE|COSM|Cosmetology
+63|USUE-DWE|CPAP|Computer Applications
+63|USUE-DWE|CRPMHS|Carpentry - Moab High School
+63|USUE-DWE|CS   |Computer Science
+63|USUE-DWE|CS O|Computer Science
+63|USUE-DWE|CSSC|Customer Service Specialist
+63|USUE-DWE|DSME|Diesel Mechanics
+63|USUE-DWE|EDDT|Engineering, Drafting & Design
+63|USUE-DWE|ELEC|Electrical
+63|USUE-DWE|FOSSJ|Front Desk Assistant - San Juan
+63|USUE-DWE|FROC|Front Office Support
+63|USUE-DWE|GRECON|Green Construction
+63|USUE-DWE|HEAL|Health Professions
+63|USUE-DWE|HETR|Heavy Trucking & Equipment
+63|USUE-DWE|ITEC|Information Technology
+63|USUE-DWE|MACH|Machining
+63|USUE-DWE|MINT|Mining
+63|USUE-DWE|MSOF|Microsoft Office Specialist
+63|USUE-DWE|NURS|Nursing
+63|USUE-DWE|OSHA|Occupational Safety & Health
+63|USUE-DWE|RECR |Recreational
+63|USUE-DWE|SKLB|Skills Lab
+63|USUE-DWE|SPEC |Speciality Courses
+63|USUE-DWE|STBT|Short Term Business Training
+63|USUE-DWE|STBTSJ|Short Term Business Training - San Juan
+63|USUE-DWE|STISJ|Short Term Information Technology - San Juan
+63|USUE-DWE|STIT |Short Term Intensive Training
+63|USUE-DWE|STS|Short Term Training - Secondary School
+63|USUE-DWE|STSJHS|Short Term Training - Secondary School - San Juan
+63|USUE-DWE|STSJPC|Short Term Training - Secondary School -  San Juan
+63|USUE-DWE|WDEV|Workforce Development
+63|USUE-DWE|WEDU|Workforce Education Development
+63|USUE-DWE|WELD |Welding

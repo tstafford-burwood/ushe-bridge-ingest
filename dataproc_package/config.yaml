@@ -1,0 +1,10 @@
+gcs_bucket_paths:
+  raw:
+    archive: "gcs://archive-bucket"
+
+  staging: "gcs://staging-bucket"
+
+  error: "gcs://error-bucket"
+
+  production: "gcs://production-bucket"
+    

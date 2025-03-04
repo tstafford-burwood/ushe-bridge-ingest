@@ -1,0 +1,28 @@
+Grade_ID|Grade_Code|Grade_Name|Grade_Passing|Created_Date|Modified_Date|Inactive
+27|NULL|No grade available.|NULL|1999-02-24 00:00:00.000|NULL|N
+1|A|4 grade points earned on a 4 scale.|Y|2011-07-01 00:00:00.000|NULL|N
+2|A-|3.7 grade points earned on a 4 scale.|Y|2011-07-01 00:00:00.000|NULL|N
+14|AU|Audited course.  Not calculated into GPA.|NULL|1999-02-24 00:00:00.000|NULL|N
+4|B|3 grade points earned on a 4 scale.|Y|1999-02-24 00:00:00.000|NULL|N
+3|B+|3.3 grade points earned on a 4 scale.|Y|1999-02-24 00:00:00.000|NULL|N
+5|B-|2.7 grade points earned on a 4 scale.|Y|1999-02-24 00:00:00.000|NULL|N
+7|C|2 grade points earned on a 4 scale.|Y|1999-02-24 00:00:00.000|NULL|N
+6|C+|2.3 grade points earned on a 4 scale.|Y|1999-02-24 00:00:00.000|NULL|N
+8|C-|1.7 grade points earned on a 4 scale.|Y|1999-02-24 00:00:00.000|NULL|N
+15|CR|Credit.  Not calculated into GPA|NULL|2003-07-01 00:00:00.000|NULL|N
+16|CW|Concurrent Enrollment Drop/Delete|NULL|2021-07-01 00:00:00.000|NULL|N
+10|D|1 grade point earned on a 4 scale.|Y|1999-02-24 00:00:00.000|NULL|N
+9|D+|1.3 grade points earned on a 4 scale.|Y|1999-02-24 00:00:00.000|NULL|N
+11|D-|0.7 grade points earned on a 4 scale.|Y|1999-02-24 00:00:00.000|NULL|N
+12|E|Student failed course. Course completed with Zero Grade points earned.|N|1999-02-24 00:00:00.000|NULL|N
+13|F|Student failed course. Course completed with Zero Grade points earned.|N|1999-02-24 00:00:00.000|NULL|N
+17|I|Incompleted work.  Not calculated into GPA.|NULL|1999-02-24 00:00:00.000|NULL|N
+18|IP|In Progress.  Not calculated into GPA.|NULL|2003-07-01 00:00:00.000|NULL|N
+19|L|Student Failed course but not calculated into GPA.|NULL|2006-07-01 00:00:00.000|NULL|N
+20|NC|No Credit.  Not calculated into GPA|NULL|2003-07-01 00:00:00.000|NULL|N
+21|NG|Non-graded course, ie a lab.|NULL|2006-07-01 00:00:00.000|NULL|N
+22|P|Pass.  Not calculated into GPA.|NULL|1999-02-24 00:00:00.000|NULL|N
+23|SP|Satisfactory Progress.  Not calculated into GPA|NULL|2004-02-04 00:00:00.000|NULL|N
+24|T|For Thesis Courses|NULL|2020-07-01 00:00:00.000|NULL|N
+25|UW|Unofficial Withdrawal. Course not completed. Zero Grade points earned.|NULL|1999-02-24 00:00:00.000|NULL|N
+26|W|Official Withdrawal.  Not calculated into GPA.|NULL|1999-02-24 00:00:00.000|NULL|N

@@ -1,0 +1,37 @@
+F_Type_Code|F_Type_Name|F_Type_Group|Created_Date|Modified_Date|Inactive
+ALEARN|Adult Learners|State|2022-04-12 17:11:18.713|NULL|N
+BIA|Bureau of Indian Affairs|State|2022-05-03 10:30:20.320|NULL|N
+DWS|Utah Department of Workforce Services|Federal|2022-05-03 10:37:07.403|2022-09-22 08:57:32.667|N
+EDDIS|ED Disadvantaged|State|2022-04-12 17:11:18.713|NULL|N
+FRMHG|First Responder Mental Health Grant|State|2023-11-02 13:40:11.930|NULL|N
+HESSP|Higher Education Success Stipend Program|State|2022-05-03 10:37:47.733|2023-11-02 13:41:35.423|Y
+IANB|Institutional Aid - Need Based|Institutional|2022-04-12 17:11:18.713|NULL|N
+IANNB|Institutional Aid - Not Need Based|Institutional|2022-04-12 17:11:18.713|NULL|N
+IIS|International Internship Scholarship|State|2023-11-02 13:42:17.297|NULL|N
+ILOAN|Institutional Loan|Institutional|2022-04-12 17:11:18.713|NULL|N
+KMPSOS|Karen Mayne Public Saftety Officer Scholarship|State|2023-11-02 13:43:56.240|NULL|N
+NASA|NASA|State|2022-04-12 17:11:18.713|NULL|N
+NEWCEN|New Century|State|2022-04-12 17:11:18.713|NULL|N
+OAID|Other Aid|Outside|2022-04-12 17:11:18.713|NULL|N
+OFAID|Other Fed Aid|Federal|2022-04-12 17:11:18.713|NULL|N
+OFLOAN|Other Fed Loan|Federal|2022-04-12 17:11:18.713|NULL|N
+OLOAN|Other Loan|Outside|2022-04-12 17:11:18.713|NULL|N
+OPP|Opportunity|State|2022-04-12 17:11:18.713|NULL|N
+OSAID|Other State Aid|State|2022-04-12 17:11:18.713|NULL|N
+PARTPR|Promise Partner Program|State|2023-11-02 13:45:14.690|NULL|N
+PELL|Pell|Federal|2022-04-12 17:11:18.713|NULL|N
+PLUS|Loan PLUS|Federal|2022-04-12 17:11:18.713|NULL|N
+PRIME|Prime Scholarship|State|2023-11-02 13:44:36.033|NULL|N
+PROM|Promise|State|2022-04-12 17:11:18.713|NULL|N
+PSOCAG|Public Safety Grant|State|2023-11-02 13:57:02.023|NULL|N
+PUBSAF|Public Safety Grant|State|2022-05-03 08:46:04.430|2023-11-02 13:57:33.033|Y
+REG|Regents|State|2022-04-12 17:11:18.713|NULL|N
+SEOG|SEOG|Federal|2022-04-12 17:11:18.713|NULL|N
+SUB|Loan Subsidized|Federal|2022-05-03 10:38:36.023|NULL|N
+TALENT|Talent|State|2022-04-12 17:11:18.713|NULL|N
+TECHED|TechEd|State|2022-04-12 17:11:18.713|NULL|N
+THBELL|TH Bell|State|2022-04-12 17:11:18.713|NULL|N
+UNSUB|Loan UnSubsidized|Federal|2022-05-03 10:39:12.523|NULL|N
+USHEES|USHE Employee Scholarship|State|2023-11-02 13:47:53.523|NULL|N
+VTGAP|Vet Gap|State|2022-04-12 17:11:18.713|NULL|N
+WORK|Work Study|Federal|2022-04-12 17:11:18.713|NULL|N
