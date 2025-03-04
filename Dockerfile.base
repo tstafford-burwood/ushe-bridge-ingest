@@ -57,28 +57,28 @@ RUN ${CONDA_HOME}/bin/conda install \
       build \
       conda \
       cython \
-      fastavro \
+      #fastavro \
       fastparquet \
       gcsfs \
       google-cloud-bigquery-storage \
       google-cloud-bigquery[pandas] \
-      google-cloud-bigtable \
+      #google-cloud-bigtable \
       google-cloud-container \
       google-cloud-datacatalog \
       google-cloud-dataproc \
       google-cloud-datastore \
-      google-cloud-language \
+      #google-cloud-language \
       google-cloud-logging \
       google-cloud-monitoring \
       google-cloud-pubsub \
-      google-cloud-redis \
-      google-cloud-spanner \
-      google-cloud-speech \
+      #google-cloud-redis \
+      #google-cloud-spanner \
+      #google-cloud-speech \
       google-cloud-storage \
-      google-cloud-texttospeech \
-      google-cloud-translate \
-      google-cloud-vision \
-      google-cloud-alloydb-connector[pg8000] \
+      #google-cloud-texttospeech \
+      #google-cloud-translate \
+      #google-cloud-vision \
+      #google-cloud-alloydb-connector[pg8000] \
       google-cloud-secret-manager \
       koalas \
       matplotlib \
