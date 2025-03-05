@@ -6,7 +6,7 @@ from pyspark.sql import functions as F
 from dga_dataproc_package.verify.BaseQualityChecker import BaseQualityChecker
 
 
-class BuildingQualityChecker(BaseQualityChecker):
+class TestQualityChecker(BaseQualityChecker):
     def __init__(
         self,
         building_df: DataFrame,

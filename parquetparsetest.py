@@ -3,6 +3,7 @@ from pyspark.sql import SparkSession
 
 # Initialize a SparkSession
 spark = SparkSession.builder \
+    .master("local[*]") \
     .appName("Parquet to PySpark DataFrame") \
     .getOrCreate()
 
