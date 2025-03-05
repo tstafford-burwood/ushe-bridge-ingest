@@ -7,7 +7,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # Path to your Parquet file
-parquet_file_path = "synthetic_data 1.parquet"
+parquet_file_path = "gs://ushe-dataproc-test/synthetic_data 1.parquet"
 
 # Load the Parquet file into a PySpark DataFrame
 df = spark.read.parquet(parquet_file_path)
