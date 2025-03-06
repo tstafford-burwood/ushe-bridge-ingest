@@ -85,7 +85,8 @@ class DynamicFileLoaderMixin:
         Returns:
             class: The dataframe factory class.
         """
-        file_type = self.determine_file_type(file_path)
+        #file_type = self.determine_file_type(file_path)
+        file_type = "parquet"
         self.file_type_class = self.file_type_class_map[file_type]
         return self.file_type_class_map[file_type]
 
