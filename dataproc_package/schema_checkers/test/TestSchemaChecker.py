@@ -4,7 +4,7 @@ from dataproc_package.utils.gcs_reader_helpers import read_json_from_gcs_bucket
 from pyspark.sql.types import StructType
 from dataproc_package.schema_checkers.BaseSchemaChecker import BaseSchemaChecker
 
-class BuildingSchemaChecker(BaseSchemaChecker):
+class TestSchemaChecker(BaseSchemaChecker):
 
     def check_schema(self):
         try:
