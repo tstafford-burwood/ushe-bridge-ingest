@@ -6,37 +6,9 @@
     "destination": "synthetic_data.parquet",
     "mpiStrategy": "CreateAndMatch",
     "columns": [
-        {
-            "name": "First Name",
-            "outputs": {
-                "MPI": {
-                    "name": "first_name"
-                }
-            }
-        },
-        {
-            "name": "Last Name (Surname)",
-            "outputs": {
-                "MPI": {
-                    "name": "last_name"
-                }
-            }
-        },
-        {
-            "name": "Date of birth",
-            "outputs": {
-                "MPI": {
-                    "name": "birth_date"
-                }
-            }
-        },
-        {
-            "name": "SSN",
-            "outputs": {
-                "MPI": {
-                    "name": "ssn"
-                }
-            }
-        }
+        "First Name",
+        "Last Name (Surname)",
+        "Date of birth",
+        "SSN"
     ]
 }

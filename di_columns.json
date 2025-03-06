@@ -6,101 +6,17 @@
     "destination": "synthetic_data.parquet",
     "mpiStrategy": "CreateAndMatch",
     "columns": [
-        {
-            "name": "Email Address",
-            "outputs": {
-                "DI": {
-                    "name": "Email Address"
-                }
-            }
-        },
-        {
-            "name": "CCN Visa / Master Card / AMEX",
-            "outputs": {
-                "DI": {
-                    "name": "CCN Visa / Master Card / AMEX"
-                }
-            }
-        },
-        {
-            "name": "CVV",
-            "outputs": {
-                "DI": {
-                    "name": "CVV"
-                }
-            }
-        },
-        {
-            "name": "Expiration Date",
-            "outputs": {
-                "DI": {
-                    "name": "Expiration Date"
-                }
-            }
-        },
-        {
-            "name": "Address",
-            "outputs": {
-                "DI": {
-                    "name": "Address"
-                }
-            }
-        },
-        {
-            "name": "IBAN",
-            "outputs": {
-                "DI": {
-                    "name": "IBAN"
-                }
-            }
-        },
-        {
-            "name": "Bank Account Number",
-            "outputs": {
-                "DI": {
-                    "name": "Bank Account Number"
-                }
-            }
-        },
-        {
-            "name": "Routing Number",
-            "outputs": {
-                "DI": {
-                    "name": "Routing Number"
-                }
-            }
-        },
-        {
-            "name": "Patients MRN",
-            "outputs": {
-                "DI": {
-                    "name": "Patients MRN"
-                }
-            }
-        },
-        {
-            "name": "Blood Type",
-            "outputs": {
-                "DI": {
-                    "name": "Blood Type"
-                }
-            }
-        },
-        {
-            "name": "Weight",
-            "outputs": {
-                "DI": {
-                    "name": "Weight"
-                }
-            }
-        },
-        {
-            "name": "Height",
-            "outputs": {
-                "DI": {
-                    "name": "Height"
-                }
-            }
-        }
+        "Email Address",
+        "CCN Visa / Master Card / AMEX",
+        "CVV",
+        "Expiration Date",
+        "Address",
+        "IBAN",
+        "Bank Account Number",
+        "Routing Number",
+        "Patients MRN",
+        "Blood Type",
+        "Weight",
+        "Height"
     ]
 }
