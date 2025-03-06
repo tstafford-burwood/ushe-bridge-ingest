@@ -1,13 +1,13 @@
 from pyspark.sql import functions as F
 from pyspark.sql.types import *
 
-from dga_dataproc_package.dataframe_factories.BaseSparkDataframeFactory import (
+from dataproc_package.dataframe_factories.BaseSparkDataframeFactory import (
     BaseSparkDataframeFactory,
 )
-from dga_dataproc_package.dataframe_factories.test.TestDataframeSchema import (
+from dataproc_package.dataframe_factories.test.TestDataframeSchema import (
     test_schema,
 )
-from dga_dataproc_package.dataframe_factories.mixins.DynamicFileLoaderMixin import (
+from dataproc_package.dataframe_factories.mixins.DynamicFileLoaderMixin import (
     DynamicFileLoaderMixin,
 )
 class TestDataframeFactory(DynamicFileLoaderMixin, BaseSparkDataframeFactory):

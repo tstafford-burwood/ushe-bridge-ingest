@@ -1,4 +1,4 @@
-from dga_dataproc_package.dataframe_factories.dataframe_readers.BaseDataframeReader import BaseDataframeReader
+from dataproc_package.dataframe_factories.dataframe_readers.BaseDataframeReader import BaseDataframeReader
 import csv
 
 

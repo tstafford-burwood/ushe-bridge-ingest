@@ -1,6 +1,6 @@
 from pyspark.sql.types import StringType
 
-from dga_dataproc_package.preprocess import BasePreprocessor
+from dataproc_package.preprocess import BasePreprocessor
 
 
 class TestBasePreprocessor:

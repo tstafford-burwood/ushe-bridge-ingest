@@ -30,7 +30,7 @@ steps:
 
   # - name: "gcr.io/cloud-builders/docker"
   #   id: "UnitTestRun"
-  #   args: ["run", "dga-dataproc-pipeline-test-container", "pytest", "-v", "/packages/dga_dataproc_package/"]
+  #   args: ["run", "dga-dataproc-pipeline-test-container", "pytest", "-v", "/packages/dataproc_package/"]
   #   waitFor: ["UnitTestBuild"]
 
   - name: "gcr.io/cloud-builders/docker"

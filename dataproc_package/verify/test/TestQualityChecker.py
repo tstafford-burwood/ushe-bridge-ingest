@@ -3,7 +3,7 @@ import datetime
 from pyspark.sql import DataFrame
 from pyspark.sql import functions as F
 
-from dga_dataproc_package.verify.BaseQualityChecker import BaseQualityChecker
+from dataproc_package.verify.BaseQualityChecker import BaseQualityChecker
 
 
 class TestQualityChecker(BaseQualityChecker):

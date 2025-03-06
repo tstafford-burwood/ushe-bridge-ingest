@@ -1,7 +1,7 @@
 import os
 from unittest.mock import patch
 
-from dga_dataproc_package.verify.buildings.BuildingQualityChecker import (
+from dataproc_package.verify.buildings.BuildingQualityChecker import (
     BuildingQualityChecker,
 )
 
@@ -10,7 +10,7 @@ class TestBuildingQualityChecker:
 
     os.environ[
         "GOOGLE_APPLICATION_CREDENTIALS"
-    ] = "/packages/dga_dataproc_package/tests/fixture_files/fake_service_account.json"
+    ] = "/packages/dataproc_package/tests/fixture_files/fake_service_account.json"
 
     def test_b06b_duplicate_records_finds_duplicates(
         spark_session,

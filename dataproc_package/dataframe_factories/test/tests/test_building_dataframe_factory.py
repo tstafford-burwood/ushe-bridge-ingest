@@ -1,6 +1,6 @@
 import pathlib
 
-from dga_dataproc_package.dataframe_factories.buildings.BuildingDataframeFactory import (
+from dataproc_package.dataframe_factories.buildings.BuildingDataframeFactory import (
     BuildingDataframeFactory,
 )
 
@@ -8,7 +8,7 @@ from dga_dataproc_package.dataframe_factories.buildings.BuildingDataframeFactory
 class TestBuildingDataframeFactory:
     def test_read_file(spark_session, expected_schema):
         test_input_file_path = pathlib.Path(
-            "/packages/dga_dataproc_package/dataframe_factories/buildings/tests/fixture_files/buildings.txt"
+            "/packages/dataproc_package/dataframe_factories/buildings/tests/fixture_files/buildings.txt"
         )
 
         dataframe_factory = BuildingDataframeFactory()

@@ -1,8 +1,8 @@
-from dga_dataproc_package.utils import read_yaml_config
+from dataproc_package.utils import read_yaml_config
 from pyspark.sql import SparkSession
-from dga_dataproc_package.utils.gcs_reader_helpers import read_json_from_gcs_bucket
+from dataproc_package.utils.gcs_reader_helpers import read_json_from_gcs_bucket
 from pyspark.sql.types import StructType
-from dga_dataproc_package.schema_checkers.BaseSchemaChecker import BaseSchemaChecker
+from dataproc_package.schema_checkers.BaseSchemaChecker import BaseSchemaChecker
 
 class CourseSchemaChecker(BaseSchemaChecker):
 

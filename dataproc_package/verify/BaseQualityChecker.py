@@ -4,17 +4,17 @@ from google.cloud import pubsub_v1
 from pyspark.sql import DataFrame, SparkSession
 from pyspark.sql import functions as F
 
-from dga_dataproc_package.utils.gcs_pubsub_helpers import (
+from dataproc_package.utils.gcs_pubsub_helpers import (
     publish_to_topic_with_dictionary_payload,
 )
-from dga_dataproc_package.utils.gcs_reader_helpers import (
+from dataproc_package.utils.gcs_reader_helpers import (
     read_inst_id_from_gcs_input_blob_path,
     read_pk_from_gcs_input_blob_path,
 )
-from dga_dataproc_package.verify.reference_configs.gcs_reference_filepaths import (
+from dataproc_package.verify.reference_configs.gcs_reference_filepaths import (
     gcs_reference_filepaths,
 )
-from dga_dataproc_package.verify.reference_configs.local_reference_filepaths import (
+from dataproc_package.verify.reference_configs.local_reference_filepaths import (
     local_reference_filepaths,
 )
 

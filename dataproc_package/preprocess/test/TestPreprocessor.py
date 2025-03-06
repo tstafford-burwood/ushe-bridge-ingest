@@ -1,4 +1,4 @@
-from dga_dataproc_package.preprocess import BasePreprocessor
+from dataproc_package.preprocess import BasePreprocessor
 
 class BuildingPreprocessor(BasePreprocessor):
     pass

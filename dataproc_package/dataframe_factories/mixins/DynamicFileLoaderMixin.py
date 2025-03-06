@@ -1,5 +1,5 @@
-from dga_dataproc_package.dataframe_factories.dataframe_readers.CSVDataframeReader import CSVDataframeReader
-from dga_dataproc_package.dataframe_factories.dataframe_readers.ExcelDataframeReader import ExcelDataframeReader
+from dataproc_package.dataframe_factories.dataframe_readers.CSVDataframeReader import CSVDataframeReader
+from dataproc_package.dataframe_factories.dataframe_readers.ExcelDataframeReader import ExcelDataframeReader
 
 import magic
 

@@ -3,7 +3,7 @@ import os
 import pyspark
 from pyspark.sql import SparkSession
 
-from dga_dataproc_package.dataframe_factories.dataframe_readers.BaseDataframeReader import (
+from dataproc_package.dataframe_factories.dataframe_readers.BaseDataframeReader import (
     BaseDataframeReader,
 )
 

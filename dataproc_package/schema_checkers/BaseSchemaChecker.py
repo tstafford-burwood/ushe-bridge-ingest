@@ -1,4 +1,4 @@
-from dga_dataproc_package.utils import read_yaml_config
+from dataproc_package.utils import read_yaml_config
 
 class BaseSchemaChecker:
     def __init__(self, df_to_check, schema_gcs_path: str = None):

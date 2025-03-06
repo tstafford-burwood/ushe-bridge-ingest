@@ -4,10 +4,10 @@ services:
       context: .
       dockerfile: Dockerfile.unittest
     volumes:
-      - ./dga_dataproc_package:/packages/dataproc_package
+      - ./dataproc_package:/packages/dataproc_package
       - ./execute_testing_commands.sh:/execute_testing_commands.sh
       - ./.pre-commit-config.yaml:/.pre-commit-config.yaml
 
-    #command: coverage run -m pytest /packages/dga_dataproc_package/ -n 2 -vv -k TestFinancialaidQualityChecker && coverage report -m
+    #command: coverage run -m pytest /packages/dataproc_package/ -n 2 -vv -k TestFinancialaidQualityChecker && coverage report -m
 
     command: /bin/sh execute_testing_commands.sh
