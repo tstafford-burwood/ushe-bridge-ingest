@@ -5,7 +5,7 @@ from dga_dataproc_package.dataframe_factories.BaseSparkDataframeFactory import (
     BaseSparkDataframeFactory,
 )
 from dga_dataproc_package.dataframe_factories.test.TestDataframeSchema import (
-    building_schema,
+    test_schema,
 )
 from dga_dataproc_package.dataframe_factories.mixins.DynamicFileLoaderMixin import (
     DynamicFileLoaderMixin,
