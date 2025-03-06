@@ -1,6 +1,6 @@
 from dataproc_package.dataframe_factories.dataframe_readers.CSVDataframeReader import CSVDataframeReader
 from dataproc_package.dataframe_factories.dataframe_readers.ExcelDataframeReader import ExcelDataframeReader
-
+from dataproc_package.dataframe_factories.dataframe_readers.ParquetDataframeReader import ParquetDataframeReader
 import magic
 
 class DynamicFileLoaderMixin:

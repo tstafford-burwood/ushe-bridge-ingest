@@ -10,7 +10,7 @@ from dataproc_package.dataframe_factories.dataframe_readers.BaseDataframeReader 
 os.environ["PYARROW_IGNORE_TIMEZONE"] = "1"
 
 
-class ExcelDataframeReader(BaseDataframeReader):
+class ParquetDataframeReader(BaseDataframeReader):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
