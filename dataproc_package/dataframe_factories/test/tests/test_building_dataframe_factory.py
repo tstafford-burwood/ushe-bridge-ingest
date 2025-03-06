@@ -1,6 +1,6 @@
 import pathlib
 
-from dataproc_package.dataframe_factories.buildings.BuildingDataframeFactory import (
+from dataproc_package.dataframe_factories.test.BuildingDataframeFactory import (
     BuildingDataframeFactory,
 )
 

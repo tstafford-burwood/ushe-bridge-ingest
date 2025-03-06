@@ -1,5 +1,5 @@
 from .BaseSchemaChecker import BaseSchemaChecker
-from .buildings import *
+from .test import *
 from .completers import *
 from .courses import *
 from .enrollments import *

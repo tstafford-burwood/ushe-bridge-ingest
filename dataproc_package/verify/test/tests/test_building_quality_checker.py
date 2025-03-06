@@ -1,7 +1,7 @@
 import os
 from unittest.mock import patch
 
-from dataproc_package.verify.buildings.BuildingQualityChecker import (
+from dataproc_package.verify.test.BuildingQualityChecker import (
     BuildingQualityChecker,
 )
 
