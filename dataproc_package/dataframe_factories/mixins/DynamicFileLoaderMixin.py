@@ -15,10 +15,12 @@ class DynamicFileLoaderMixin:
             "txt": "csv",
             "xls": "xlsx",
             "xlsx": "xlsx",
+            "parqeuet": "parquet"
         }
         self.file_type_class_map = {
             "csv": CSVDataframeReader,
-            "xlsx": ExcelDataframeReader
+            "xlsx": ExcelDataframeReader,
+            "parquet": ParquetDataframeReader
         }
         self.file_type_class = None
         super().__init__(*args, **kwargs)
@@ -57,17 +59,21 @@ class DynamicFileLoaderMixin:
         """
         mime = magic.Magic(mime=True)
         mime_type = mime.from_file(file_path)
-        if 'csv' in mime_type or mime_type == 'text/plain':
-            print('File is of type csv')
-            return self.file_type_map['csv']
-        elif 'excel' in mime_type or mime_type == 'application/vnd.ms-excel':
-            print('File is of type xls')
-            return self.file_type_map['xlsx']
-        elif 'spreadsheetml' in mime_type or mime_type == 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet':
-            print('File is of type xlsx')
-            return self.file_type_map['xlsx']
-        else:
-            raise ValueError(f"Unsupported file type: {mime_type}")
+        # if 'csv' in mime_type or mime_type == 'text/plain':
+        #     print('File is of type csv')
+        #     return self.file_type_map['csv']
+        # elif 'excel' in mime_type or mime_type == 'application/vnd.ms-excel':
+        #     print('File is of type xls')
+        #     return self.file_type_map['xlsx']
+        # elif 'spreadsheetml' in mime_type or mime_type == 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet':
+        #     print('File is of type xlsx')
+        #     return self.file_type_map['xlsx']
+        # elif 'parquet' in mime_type or mime_type == 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet':
+        #     print('File is of type parquet')
+            # return self.file_type_map['parquet']
+        return self.file_type_map['parquet']
+        # else:
+        #     raise ValueError(f"Unsupported file type: {mime_type}")
 
     def set_dataframe_factory_class(self, file_path: str):
         """
