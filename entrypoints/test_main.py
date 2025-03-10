@@ -53,7 +53,7 @@ if __name__ == "__main__":
     # bq_to_df.set_prod_df()
     # courses_prod_df = bq_to_df.get_prod_df()
 
-    try:
+    #try:
     #     # schema checks
     #     # data_schema_checker = CourseSchemaChecker(df_raw)
     #     # data_schema_checker.check_schema()
@@ -62,17 +62,17 @@ if __name__ == "__main__":
 
         #test_df_preprocessed = test_data_preprocessor.preprocess()
 
-        test_quality_checker = TestQualityChecker(
-            test_dataframe,
-            #test_event_pk,
-            #student_courses_prod_df,
-            #courses_prod_df,
-            project_id,
-            #pubsub_topic_name,
-            payload_data["test_file_path"],
-            ref_file_bucket_id,
-        )
-        test_quality_checker.quality_check()
+        # test_quality_checker = TestQualityChecker(
+        #     test_dataframe,
+        #     #test_event_pk,
+        #     #student_courses_prod_df,
+        #     #courses_prod_df,
+        #     project_id,
+        #     #pubsub_topic_name,
+        #     payload_data["test_file_path"],
+        #     ref_file_bucket_id,
+        # )
+        # test_quality_checker.quality_check()
 
     # except Exception as e:
     #     print(f"An error occurred while processing the dataframes. {e}")
