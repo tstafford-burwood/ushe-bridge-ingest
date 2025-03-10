@@ -34,8 +34,10 @@ with open('context.json', 'r') as file:
 # Split the columns into two categories based on "MPI" or "DI"
 mpi_columns = []
 di_columns = []
+all_columns = []
 
 for column in input_json['columns']:
+    all_columns.append(column['name'])
     if "MPI" in column['outputs']:
         mpi_columns.append(column['name'])
     elif "DI" in column['outputs']:
@@ -50,6 +52,11 @@ di_columns_list = [s.replace('(', '_') for s in di_columns]
 di_columns_list2 = [s.replace(')', '_') for s in di_columns_list]
 di_columns_list3 = [s.replace('/', '_') for s in di_columns_list2]
 print(di_columns_list3)
+
+all_columns_list = [s.replace('(', '_') for s in all_columns]
+all_columns_list2 = [s.replace(')', '_') for s in all_columns_list]
+all_columns_list3 = [s.replace('/', '_') for s in all_columns_list2]
+print(all_columns_list3)
 # Prepare two new JSON structures based on the separation
 # mpi_json = input_json.copy()
 # di_json = input_json.copy()

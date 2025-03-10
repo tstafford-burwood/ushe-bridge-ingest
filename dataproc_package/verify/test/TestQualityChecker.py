@@ -11,20 +11,18 @@ class TestQualityChecker(BaseQualityChecker):
         self,
         test_df: DataFrame,
         #rooms_df: DataFrame,
-        building_pk: str,
+        #test_pk: str,
         *args,
         **kwargs,
     ):
         super().__init__(test_df, *args, **kwargs)
         self.test_df = self.df
         #self.rooms_df = rooms_df
-        self.test_pk = test_pk
+        #self.test_pk = test_pk
 
     def b06b_duplicate_records(self) -> DataFrame:
         """
-        B-06B Duplicate Records
-
-        Returns error dataframe if duplicates are found
+        Test applying parsed list of columns to select statement
 
         """
         cols_to_check = ["B_INST", "B_NUMBER"]

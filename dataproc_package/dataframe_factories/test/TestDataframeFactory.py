@@ -12,7 +12,7 @@ from dataproc_package.dataframe_factories.mixins.DynamicFileLoaderMixin import (
 )
 class TestDataframeFactory(DynamicFileLoaderMixin, BaseSparkDataframeFactory):
     def __init__(self):
-        self.schema = test_schema
+        #self.schema = test_schema
         super().__init__()
 
     def set_dataframe(self, gcs_file_path: str):
