@@ -15,7 +15,7 @@ class DynamicFileLoaderMixin:
             "txt": "csv",
             "xls": "xlsx",
             "xlsx": "xlsx",
-            "parqeuet": "parquet"
+            "parquet": "parquet"
         }
         self.file_type_class_map = {
             "csv": CSVDataframeReader,
@@ -106,8 +106,7 @@ class DynamicFileLoaderMixin:
         # Ensure file_path is a string
         file_path = str(file_path)
         self.set_dataframe_factory_class(file_path)
-        #file_type_reader = self.file_type_class(self.spark, self.schema)
-        file_type_reader = self.file_type_class(self.spark)
+        file_type_reader = self.file_type_class(self.spark, self.schema)
         return file_type_reader.read_dataframe_from_file(file_path)
     
 

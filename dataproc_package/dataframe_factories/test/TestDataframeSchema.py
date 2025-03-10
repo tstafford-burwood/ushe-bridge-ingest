@@ -2,7 +2,7 @@ from pyspark.sql.types import FloatType, StringType, StructField, StructType
 
 test_schema = StructType(
     [
-        StructField("First Name", StringType()),
+        StructField("TEST", StringType()),
         StructField("Last Name _Surname_", StringType()),
         StructField("Date of birth", StringType()),
         StructField("Email Address", StringType()),
