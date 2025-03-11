@@ -2,6 +2,7 @@ import json
 import sys
 
 from google.cloud import pubsub_v1
+from google.cloud import storage
 
 from dataproc_package.dataframe_factories.BaseProdTableLookup import (
     BigQuerytoDataFrameFactory,
@@ -43,7 +44,16 @@ if __name__ == "__main__":
     test_dataframe = test_dataframe_factory.get_dataframe()
     test_dataframe.show()
 
-    with open('gs://ushe_context_files/context.json', 'r') as file:
+    bucket_name = 'ushe_context_files'
+    blob_name = 'context.json'
+    storage_client = storage.Client()
+    bucket = storage_client.bucket(bucket_name)
+    blob = bucket.blob(blob_name)
+
+    # with open('gs://ushe_context_files/context.json', 'r') as file:
+    #         input_json = json.load(file)
+    
+    with blob.open("r") as file:
             input_json = json.load(file)
 
     mpi_columns = []
