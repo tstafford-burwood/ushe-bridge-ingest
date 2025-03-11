@@ -43,7 +43,7 @@ if __name__ == "__main__":
     test_dataframe = test_dataframe_factory.get_dataframe()
     test_dataframe.show()
 
-    with open('/ushe-bridge-ingest/context.json', 'r') as file:
+    with open('/ushe-bridge-dataproc/ushe-bridge-ingest/context.json', 'r') as file:
             input_json = json.load(file)
 
     mpi_columns = []
