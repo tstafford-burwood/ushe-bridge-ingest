@@ -103,7 +103,7 @@ if __name__ == "__main__":
         mpi_columns_list3,
         di_columns_list3
         )
-        test_quality_checker.quality_check()
+    test_quality_checker.quality_check()
 
     # except Exception as e:
     #     print(f"An error occurred while processing the dataframes. {e}")
