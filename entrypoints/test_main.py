@@ -18,9 +18,9 @@ from dataproc_package.dataframe_factories.test.TestDataframeFactory import (
 # from dataproc_package.utils.gcs_reader_helpers import (
 #     read_pk_from_gcs_input_blob_path,
 # )
-# from dataproc_package.verify.test.TestQualityChecker import (
-#     TestQualityChecker,
-# )
+from dataproc_package.verify.test.TestQualityChecker import (
+    TestQualityChecker,
+)
 
 if __name__ == "__main__":
     # These should come from workflow args
