@@ -40,7 +40,7 @@ class BaseQualityChecker:
         )
         self.validation_year = validation_year
         self.project_id = project_id
-        self.ref_file_bucket_id = "dev-0-dataproc-d565"
+        self.ref_file_bucket_id = "ushe_context_files"
         # self.ref_file_bucket_id = ref_file_bucket_id
         #self.institution_id = read_inst_id_from_gcs_input_blob_path(input_blob_path)
         #self.input_event_pk = read_pk_from_gcs_input_blob_path(input_blob_path)
@@ -69,7 +69,7 @@ class BaseQualityChecker:
     def get_reference_file_dataframe(
         spark,
         reference_file_path: str,
-        ref_file_bucket_id: str = "dev-0-dataproc-d565",
+        ref_file_bucket_id: str = "wshe_context_files",
         use_local_filepaths: bool = False,
     ) -> DataFrame:
         """
