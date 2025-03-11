@@ -30,8 +30,8 @@ class BaseQualityChecker:
         validation_year: str = "2024",
         publisher_client=None,
         use_local_filepaths: bool = False,
-        mpi_columns_list3: list = None,
-        di_columns_list3: list = None,
+        mpi_columns_list3: list,
+        di_columns_list3: list
     ):
         self.spark = self.get_spark_session()
         self.df = df
@@ -50,8 +50,8 @@ class BaseQualityChecker:
         self.error_dataframes = []
         self.use_local_filepaths = use_local_filepaths
         #self.set_reference_dataframes(use_local_filepaths)
-        self.mpi_columns_list3 = mpi_columns_list3
-        self.di_columns_list3 = di_columns_list3
+        self.mpi_columns_list3 = self.mpi_columns_list3
+        self.di_columns_list3 = self.di_columns_list3
     # @staticmethod
     # def get_reference_dataframes(
     #     spark, ref_file_bucket_id: str, use_local_filepaths: bool = False
