@@ -7,10 +7,10 @@ from pyspark.sql import functions as F
 from dataproc_package.utils.gcs_pubsub_helpers import (
     publish_to_topic_with_dictionary_payload,
 )
-from dataproc_package.utils.gcs_reader_helpers import (
-    read_inst_id_from_gcs_input_blob_path,
-    read_pk_from_gcs_input_blob_path,
-)
+# from dataproc_package.utils.gcs_reader_helpers import (
+#     read_inst_id_from_gcs_input_blob_path,
+#     read_pk_from_gcs_input_blob_path,
+# )
 from dataproc_package.verify.reference_configs.gcs_reference_filepaths import (
     gcs_reference_filepaths,
 )
@@ -203,336 +203,336 @@ class BaseQualityChecker:
         self.push_error_dataframe_if_errors_found(error_code, error_df)
         return error_df
 
-    def get_valid_value_list(
-        self, ref_df_key: str, column_name: str, where_clause: str = None
-    ) -> list[str]:
-        """
-        Helper that returns a list of valid values for a given column from a reference dataframe
-        """
-        df = self.reference_dataframes[ref_df_key]
-        if where_clause:
-            df = df.where(where_clause)
-        return df.select(column_name).distinct().rdd.flatMap(lambda x: x).collect()
+    # def get_valid_value_list(
+    #     self, ref_df_key: str, column_name: str, where_clause: str = None
+    # ) -> list[str]:
+    #     """
+    #     Helper that returns a list of valid values for a given column from a reference dataframe
+    #     """
+    #     df = self.reference_dataframes[ref_df_key]
+    #     if where_clause:
+    #         df = df.where(where_clause)
+    #     return df.select(column_name).distinct().rdd.flatMap(lambda x: x).collect()
 
-    def get_distinct_inst_id_list(self) -> list[str]:
-        inst_ref_df = self.reference_dataframes["institution"]
-        return (
-            inst_ref_df.where(inst_ref_df["Inactive"] != "Y")
-            .select("I_ID")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_inst_id_list(self) -> list[str]:
+    #     inst_ref_df = self.reference_dataframes["institution"]
+    #     return (
+    #         inst_ref_df.where(inst_ref_df["Inactive"] != "Y")
+    #         .select("I_ID")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_grade_code_list(self) -> list[str]:
-        grade_code_ref_df = self.reference_dataframes["grade"]
-        return (
-            grade_code_ref_df.where(
-                (~grade_code_ref_df.Grade_Code.isNull())
-                & (grade_code_ref_df["Inactive"] == "N")
-            )
-            .select("Grade_Code")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_grade_code_list(self) -> list[str]:
+    #     grade_code_ref_df = self.reference_dataframes["grade"]
+    #     return (
+    #         grade_code_ref_df.where(
+    #             (~grade_code_ref_df.Grade_Code.isNull())
+    #             & (grade_code_ref_df["Inactive"] == "N")
+    #         )
+    #         .select("Grade_Code")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_enrl_obj_list(self) -> list[str]:
-        inst_ref_df = self.reference_dataframes["u_enrl_obj"]
-        return (
-            inst_ref_df.where(inst_ref_df["Inactive"] != "Y")
-            .select("U_Enrl_Obj")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_enrl_obj_list(self) -> list[str]:
+    #     inst_ref_df = self.reference_dataframes["u_enrl_obj"]
+    #     return (
+    #         inst_ref_df.where(inst_ref_df["Inactive"] != "Y")
+    #         .select("U_Enrl_Obj")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_ipeds_code(self) -> list[str]:
-        ipeds_ref_df = self.reference_dataframes["ipeds_awards"]
-        return (
-            ipeds_ref_df.where(ipeds_ref_df.Inactive == "N")
-            .select("IPEDS_CODE")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_ipeds_code(self) -> list[str]:
+    #     ipeds_ref_df = self.reference_dataframes["ipeds_awards"]
+    #     return (
+    #         ipeds_ref_df.where(ipeds_ref_df.Inactive == "N")
+    #         .select("IPEDS_CODE")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_country_no_list(self) -> list[str]:
-        country_ref_df = self.reference_dataframes["county"]
-        return (
-            country_ref_df.select("COUNTY_NO")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_country_no_list(self) -> list[str]:
+    #     country_ref_df = self.reference_dataframes["county"]
+    #     return (
+    #         country_ref_df.select("COUNTY_NO")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_county_no_list(self) -> list[str]:
-        county_ref_df = self.reference_dataframes["county"]
-        return (
-            county_ref_df.select("COUNTY_NO")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_county_no_list(self) -> list[str]:
+    #     county_ref_df = self.reference_dataframes["county"]
+    #     return (
+    #         county_ref_df.select("COUNTY_NO")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_inst_banner(self) -> list[str]:
-        banner_ref_df = self.reference_dataframes["inst"]
-        return (
-            banner_ref_df.where(
-                (banner_ref_df.Inactive != "Y") & (banner_ref_df.I_ID == "44")
-            )
-            .select("I_Banner")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_inst_banner(self) -> list[str]:
+    #     banner_ref_df = self.reference_dataframes["inst"]
+    #     return (
+    #         banner_ref_df.where(
+    #             (banner_ref_df.Inactive != "Y") & (banner_ref_df.I_ID == "44")
+    #         )
+    #         .select("I_Banner")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    # Per Theo: Needs to include dynamic inst variable.
+    # # Per Theo: Needs to include dynamic inst variable.
 
-    def get_distinct_banner_id_list(self) -> list[str]:
-        banner_id_ref_df = self.reference_dataframes["inst"]
-        return (
-            banner_id_ref_df.join(self.df, banner_id_ref_df.I_ID == self.df.S_INST)
-            .select("I_Banner")
-            .where(
-                (banner_id_ref_df.Inactive != "Y")
-                & (self.df.S_INST == banner_id_ref_df.I_ID)
-            )
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_banner_id_list(self) -> list[str]:
+    #     banner_id_ref_df = self.reference_dataframes["inst"]
+    #     return (
+    #         banner_id_ref_df.join(self.df, banner_id_ref_df.I_ID == self.df.S_INST)
+    #         .select("I_Banner")
+    #         .where(
+    #             (banner_id_ref_df.Inactive != "Y")
+    #             & (self.df.S_INST == banner_id_ref_df.I_ID)
+    #         )
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_banner_list(self) -> list[str]:
-        banner_id_ref_df = self.reference_dataframes["inst"]
-        return (
-            banner_id_ref_df.where(banner_id_ref_df.Inactive == "N")
-            .select("I_Banner")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_banner_list(self) -> list[str]:
+    #     banner_id_ref_df = self.reference_dataframes["inst"]
+    #     return (
+    #         banner_id_ref_df.where(banner_id_ref_df.Inactive == "N")
+    #         .select("I_Banner")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_cip_list(self) -> list[str]:
-        cip_ref_df = self.reference_dataframes["cip"]
-        return (
-            cip_ref_df.where(
-                (cip_ref_df.Inactive != "Y")
-                & (~cip_ref_df.CIP_Code.isin("", "999999", "000000"))
-            )
-            .select("CIP_Code")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_cip_list(self) -> list[str]:
+    #     cip_ref_df = self.reference_dataframes["cip"]
+    #     return (
+    #         cip_ref_df.where(
+    #             (cip_ref_df.Inactive != "Y")
+    #             & (~cip_ref_df.CIP_Code.isin("", "999999", "000000"))
+    #         )
+    #         .select("CIP_Code")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
     
-    def get_distinct_cip_code_list(self) -> list[str]:
-        cip_ref_df = self.reference_dataframes["cip"]
-        return (
-            cip_ref_df.where(
-                (cip_ref_df.Inactive != "Y")
-            )
-            .select("CIP_Code")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_cip_code_list(self) -> list[str]:
+    #     cip_ref_df = self.reference_dataframes["cip"]
+    #     return (
+    #         cip_ref_df.where(
+    #             (cip_ref_df.Inactive != "Y")
+    #         )
+    #         .select("CIP_Code")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_deg_type_list(self) -> list[str]:
-        deg_type_ref_df = self.reference_dataframes["degree_type"]
-        return (
-            deg_type_ref_df.where(deg_type_ref_df.Inactive == "N")
-            .select("G_Deg_Type")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_deg_type_list(self) -> list[str]:
+    #     deg_type_ref_df = self.reference_dataframes["degree_type"]
+    #     return (
+    #         deg_type_ref_df.where(deg_type_ref_df.Inactive == "N")
+    #         .select("G_Deg_Type")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_degree_type_list(self) -> list[str]:
-        deg_type_ref_df = self.reference_dataframes["degree_type"]
-        return (
-            deg_type_ref_df.where(deg_type_ref_df.Inactive == "N")
-            .select("G_DEG_TYPE")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_degree_type_list(self) -> list[str]:
+    #     deg_type_ref_df = self.reference_dataframes["degree_type"]
+    #     return (
+    #         deg_type_ref_df.where(deg_type_ref_df.Inactive == "N")
+    #         .select("G_DEG_TYPE")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_highschools_code(self) -> list[str]:
-        highschools_df = self.reference_dataframes["highschools"]
-        return (
-            highschools_df.where(highschools_df.Inactive == "N")
-            .select("HS_ACT_Code")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_highschools_code(self) -> list[str]:
+    #     highschools_df = self.reference_dataframes["highschools"]
+    #     return (
+    #         highschools_df.where(highschools_df.Inactive == "N")
+    #         .select("HS_ACT_Code")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_inst_code_list(self) -> list[str]:
-        inst_ref_df = self.reference_dataframes["inst"]
-        return (
-            inst_ref_df.where(inst_ref_df.Inactive == "N")
-            .select("I_ID")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_inst_code_list(self) -> list[str]:
+    #     inst_ref_df = self.reference_dataframes["inst"]
+    #     return (
+    #         inst_ref_df.where(inst_ref_df.Inactive == "N")
+    #         .select("I_ID")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_cr_type_code_list(self) -> list[str]:
-        cr_type_ref_df = self.reference_dataframes["credit_hr_type"]
-        return (
-            cr_type_ref_df.where(cr_type_ref_df.Inactive == "N")
-            .select("CR_Type_Code")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_cr_type_code_list(self) -> list[str]:
+    #     cr_type_ref_df = self.reference_dataframes["credit_hr_type"]
+    #     return (
+    #         cr_type_ref_df.where(cr_type_ref_df.Inactive == "N")
+    #         .select("CR_Type_Code")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_hs_act_code_list(self) -> list[str]:
-        hs_act_code_ref_df = self.reference_dataframes["highschools"]
-        return (
-            hs_act_code_ref_df.where(hs_act_code_ref_df.HS_State == "UT")
-            .select("HS_ACT_Code")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_hs_act_code_list(self) -> list[str]:
+    #     hs_act_code_ref_df = self.reference_dataframes["highschools"]
+    #     return (
+    #         hs_act_code_ref_df.where(hs_act_code_ref_df.HS_State == "UT")
+    #         .select("HS_ACT_Code")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_active_hs_act_code_list(self) -> list[str]:
-        hs_act_code_ref_df = self.reference_dataframes["highschools"]
-        return (
-            hs_act_code_ref_df.where(
-                (hs_act_code_ref_df.HS_State == "UT")
-                & (hs_act_code_ref_df.Inactive == "N")
-                & (hs_act_code_ref_df.HS_School_Type.isin("B", "C", "D"))
-            )
-            .select("HS_ACT_Code")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_active_hs_act_code_list(self) -> list[str]:
+    #     hs_act_code_ref_df = self.reference_dataframes["highschools"]
+    #     return (
+    #         hs_act_code_ref_df.where(
+    #             (hs_act_code_ref_df.HS_State == "UT")
+    #             & (hs_act_code_ref_df.Inactive == "N")
+    #             & (hs_act_code_ref_df.HS_School_Type.isin("B", "C", "D"))
+    #         )
+    #         .select("HS_ACT_Code")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_deg_type_df(self) -> DataFrame:
-        deg_type_df = self.reference_dataframes["degree_type"]
-        return deg_type_df
+    # def get_deg_type_df(self) -> DataFrame:
+    #     deg_type_df = self.reference_dataframes["degree_type"]
+    #     return deg_type_df
 
-    def get_distinct_county_list(self) -> list[str]:
-        county_ref_df = self.reference_dataframes["county"]
-        return (
-            county_ref_df.select(F.concat(F.lit("UT"), "COUNTY_NO"))
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_county_list(self) -> list[str]:
+    #     county_ref_df = self.reference_dataframes["county"]
+    #     return (
+    #         county_ref_df.select(F.concat(F.lit("UT"), "COUNTY_NO"))
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_grade_level_list(self) -> list[str]:
-        grade_level_ref_df = self.reference_dataframes["u_grade_level"]
-        return (
-            grade_level_ref_df.where(grade_level_ref_df.Inactive == "N")
-            .select("u_grade_level")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_grade_level_list(self) -> list[str]:
+    #     grade_level_ref_df = self.reference_dataframes["u_grade_level"]
+    #     return (
+    #         grade_level_ref_df.where(grade_level_ref_df.Inactive == "N")
+    #         .select("u_grade_level")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_delivery_method_list(self) -> list[str]:
-        delivery_method_ref_df = self.reference_dataframes["delivery_method"]
-        return (
-            delivery_method_ref_df.where(delivery_method_ref_df.Inactive != "Y")
-            .select("d_method_code")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_delivery_method_list(self) -> list[str]:
+    #     delivery_method_ref_df = self.reference_dataframes["delivery_method"]
+    #     return (
+    #         delivery_method_ref_df.where(delivery_method_ref_df.Inactive != "Y")
+    #         .select("d_method_code")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_instruct_type_list(self) -> list[str]:
-        instruct_type_ref_df = self.reference_dataframes["instruct_type"]
-        return (
-            instruct_type_ref_df.where(instruct_type_ref_df.Inactive != "Y")
-            .select("Instruct_Type_Code")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_instruct_type_list(self) -> list[str]:
+    #     instruct_type_ref_df = self.reference_dataframes["instruct_type"]
+    #     return (
+    #         instruct_type_ref_df.where(instruct_type_ref_df.Inactive != "Y")
+    #         .select("Instruct_Type_Code")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_budget_code_list(self) -> list[str]:
-        budget_code_ref_df = self.reference_dataframes["budget_code"]
-        return (
-            budget_code_ref_df.where(budget_code_ref_df.Inactive != "Y")
-            .select("budget_code")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_budget_code_list(self) -> list[str]:
+    #     budget_code_ref_df = self.reference_dataframes["budget_code"]
+    #     return (
+    #         budget_code_ref_df.where(budget_code_ref_df.Inactive != "Y")
+    #         .select("budget_code")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_site_type_code_list(self) -> list[str]:
-        site_type_code_ref_df = self.reference_dataframes["site_type"]
-        return (
-            site_type_code_ref_df.where(
-                (site_type_code_ref_df.S_Type_Space_Utilize == "Y")
-                & (site_type_code_ref_df.Inactive == "N")
-            )
-            .select("S_Type_Code")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_site_type_code_list(self) -> list[str]:
+    #     site_type_code_ref_df = self.reference_dataframes["site_type"]
+    #     return (
+    #         site_type_code_ref_df.where(
+    #             (site_type_code_ref_df.S_Type_Space_Utilize == "Y")
+    #             & (site_type_code_ref_df.Inactive == "N")
+    #         )
+    #         .select("S_Type_Code")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_distinct_site_type_list(self) -> list[str]:
-        site_type_code_ref_df = self.reference_dataframes["site_type"]
-        return (
-            site_type_code_ref_df.where(site_type_code_ref_df.Inactive == "N")
-            .select("S_Type_Code")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_site_type_list(self) -> list[str]:
+    #     site_type_code_ref_df = self.reference_dataframes["site_type"]
+    #     return (
+    #         site_type_code_ref_df.where(site_type_code_ref_df.Inactive == "N")
+    #         .select("S_Type_Code")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
-    def get_rooms_reference_df(self) -> DataFrame:
-        rooms_ref_df = self.reference_dataframes["rooms"]
-        return rooms_ref_df
+    # def get_rooms_reference_df(self) -> DataFrame:
+    #     rooms_ref_df = self.reference_dataframes["rooms"]
+    #     return rooms_ref_df
 
-    def get_inst_id_list(self) -> DataFrame:
-        inst_ref_df = self.reference_dataframes["inst"]
-        return (
-            inst_ref_df.where(inst_ref_df["Inactive"] == "N")
-            .select("I_ID", "I_Inst_Type", "Inactive")
-            .distinct()
-        )
+    # def get_inst_id_list(self) -> DataFrame:
+    #     inst_ref_df = self.reference_dataframes["inst"]
+    #     return (
+    #         inst_ref_df.where(inst_ref_df["Inactive"] == "N")
+    #         .select("I_ID", "I_Inst_Type", "Inactive")
+    #         .distinct()
+    #     )
 
-    def get_finaid_type_list(self) -> DataFrame:
-        finaid_type_ref_df = self.reference_dataframes["finaid_type"]
-        return (
-            finaid_type_ref_df.where(finaid_type_ref_df["Inactive"] == "N")
-            .select("F_Type_Code", "F_Type_Group")
-            .distinct()
-        )
+    # def get_finaid_type_list(self) -> DataFrame:
+    #     finaid_type_ref_df = self.reference_dataframes["finaid_type"]
+    #     return (
+    #         finaid_type_ref_df.where(finaid_type_ref_df["Inactive"] == "N")
+    #         .select("F_Type_Code", "F_Type_Group")
+    #         .distinct()
+    #     )
 
-    def get_finaid_type_list_active(self) -> DataFrame:
-        finaid_type_ref_df = self.reference_dataframes["finaid_type"]
-        return (
-            finaid_type_ref_df.where(finaid_type_ref_df["Inactive"] != "N")
-            .select("F_Type_Code")
-            .distinct()
-        )
+    # def get_finaid_type_list_active(self) -> DataFrame:
+    #     finaid_type_ref_df = self.reference_dataframes["finaid_type"]
+    #     return (
+    #         finaid_type_ref_df.where(finaid_type_ref_df["Inactive"] != "N")
+    #         .select("F_Type_Code")
+    #         .distinct()
+    #     )
 
-    def get_rooms_use_code_reference_df(self) -> DataFrame:
-        rooms_use_code_df = self.reference_dataframes["rooms_use_code"]
-        return rooms_use_code_df
+    # def get_rooms_use_code_reference_df(self) -> DataFrame:
+    #     rooms_use_code_df = self.reference_dataframes["rooms_use_code"]
+    #     return rooms_use_code_df
 
-    def get_inst_reference_df(self) -> DataFrame:
-        inst_ref_df = self.reference_dataframes["inst"]
-        return inst_ref_df
+    # def get_inst_reference_df(self) -> DataFrame:
+    #     inst_ref_df = self.reference_dataframes["inst"]
+    #     return inst_ref_df
 
-    def get_distinct_rooms_use_code(self) -> list[str]:
-        rooms_use_code_df = self.reference_dataframes["rooms_use_code"]
-        return (
-            rooms_use_code_df.where(rooms_use_code_df.Inactive == "N")
-            .select("R_Use_Code")
-            .distinct()
-            .rdd.flatMap(lambda x: x)
-            .collect()
-        )
+    # def get_distinct_rooms_use_code(self) -> list[str]:
+    #     rooms_use_code_df = self.reference_dataframes["rooms_use_code"]
+    #     return (
+    #         rooms_use_code_df.where(rooms_use_code_df.Inactive == "N")
+    #         .select("R_Use_Code")
+    #         .distinct()
+    #         .rdd.flatMap(lambda x: x)
+    #         .collect()
+    #     )
 
     def quality_check(self):
         """
