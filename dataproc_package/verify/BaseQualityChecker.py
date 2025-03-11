@@ -49,47 +49,47 @@ class BaseQualityChecker:
         self.use_local_filepaths = use_local_filepaths
         self.set_reference_dataframes(use_local_filepaths)
 
-    @staticmethod
-    def get_reference_dataframes(
-        spark, ref_file_bucket_id: str, use_local_filepaths: bool = False
-    ):
-        reference_filepaths = (
-            local_reference_filepaths
-            if use_local_filepaths
-            else gcs_reference_filepaths
-        )
-        return {
-            key: BaseQualityChecker.get_reference_file_dataframe(
-                spark, value, ref_file_bucket_id, use_local_filepaths
-            )
-            for key, value in reference_filepaths.items()
-        }
+    # @staticmethod
+    # def get_reference_dataframes(
+    #     spark, ref_file_bucket_id: str, use_local_filepaths: bool = False
+    # ):
+    #     reference_filepaths = (
+    #         local_reference_filepaths
+    #         if use_local_filepaths
+    #         else gcs_reference_filepaths
+    #     )
+    #     return {
+    #         key: BaseQualityChecker.get_reference_file_dataframe(
+    #             spark, value, ref_file_bucket_id, use_local_filepaths
+    #         )
+    #         for key, value in reference_filepaths.items()
+    #     }
 
-    @staticmethod
-    def get_reference_file_dataframe(
-        spark,
-        reference_file_path: str,
-        ref_file_bucket_id: str = "wshe_context_files",
-        use_local_filepaths: bool = False,
-    ) -> DataFrame:
-        """
-        Reads reference file JSON from GCS and returns a dataframe
-        """
-        if not use_local_filepaths:
-            # reference_file_path = f"gs://{ref_file_bucket_id}/{reference_file_path}"
-            final_reference_path = f"gs://{ref_file_bucket_id}/{reference_file_path}"
-        else:
-            final_reference_path = reference_file_path
+    # @staticmethod
+    # def get_reference_file_dataframe(
+    #     spark,
+    #     reference_file_path: str,
+    #     ref_file_bucket_id: str = "ushe_context_files",
+    #     use_local_filepaths: bool = False,
+    # ) -> DataFrame:
+    #     """
+    #     Reads reference file JSON from GCS and returns a dataframe
+    #     """
+    #     if not use_local_filepaths:
+    #         # reference_file_path = f"gs://{ref_file_bucket_id}/{reference_file_path}"
+    #         final_reference_path = f"gs://{ref_file_bucket_id}/{reference_file_path}"
+    #     else:
+    #         final_reference_path = reference_file_path
 
-        return spark.read.options(header=True, sep="|").csv(final_reference_path)
+    #     return spark.read.options(header=True, sep="|").csv(final_reference_path)
 
-    def set_reference_dataframes(self, use_local_filepaths: bool):
-        self.reference_dataframes = BaseQualityChecker.get_reference_dataframes(
-            self.spark,
-            "dev-0-dataproc-d565",
-            use_local_filepaths
-            # self.spark, self.ref_file_bucket_id, use_local_filepaths
-        )
+    # def set_reference_dataframes(self, use_local_filepaths: bool):
+    #     self.reference_dataframes = BaseQualityChecker.get_reference_dataframes(
+    #         self.spark,
+    #         "dev-0-dataproc-d565",
+    #         use_local_filepaths
+    #         # self.spark, self.ref_file_bucket_id, use_local_filepaths
+    #     )
 
     def get_spark_session(self):
         return SparkSession.builder.getOrCreate()
