@@ -17,18 +17,27 @@ class TestQualityChecker(BaseQualityChecker):
     ):
         super().__init__(test_df, *args, **kwargs)
         self.test_df = self.df
+        self.mpi_column = self.mpi_columns_list3
+        self.di_column = self.di_columns_list3
         #self.rooms_df = rooms_df
         #self.test_pk = test_pk
 
-    def b06b_duplicate_records(self) -> DataFrame:
+    def test_mpi(self) -> DataFrame:
         """
-        Test applying parsed list of columns to select statement
+        test MPI schema application to DF
 
         """
-        cols_to_check = ["B_INST", "B_NUMBER"]
-        error_code = "b06b"
+        #error_code = "sc01a"
 
-        return self.check_duplicates(error_code, cols_to_check)
+        #distinct_inst_code_list = self.get_distinct_inst_code_list()
+        mpi_column = self.mpi_column
+        error_df = self.df.select(
+            mpi_column
+        )
+
+        #self.push_error_dataframe_if_errors_found(error_code, error_df)
+        print(error_df)
+        return error_df
 
     def quality_check(self):
         """
@@ -36,7 +45,7 @@ class TestQualityChecker(BaseQualityChecker):
         """
 
         # Quality checks will populate the self.error_dataframes list if errors are found
-        self.b06b_duplicate_records()
+        self.test_mpi()
         
         # Roll up to the base class, which will publish the errors to pubsub if self.error_dataframes is populated
         super().quality_check()

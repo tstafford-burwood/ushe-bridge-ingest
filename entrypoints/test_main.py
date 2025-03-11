@@ -42,6 +42,35 @@ if __name__ == "__main__":
     test_dataframe_factory.set_dataframe(test_file_path)
     test_dataframe = test_dataframe_factory.get_dataframe()
     test_dataframe.show()
+
+    with open('context.json', 'r') as file:
+            input_json = json.load(file)
+
+    mpi_columns = []
+    di_columns = []
+    all_columns = []
+
+    for column in input_json['columns']:
+        all_columns.append(column['name'])
+        if "MPI" in column['outputs']:
+            mpi_columns.append(column['name'])
+        elif "DI" in column['outputs']:
+            di_columns.append(column['name'])
+
+    mpi_columns_list = [s.replace('(', '_') for s in mpi_columns]
+    mpi_columns_list2 = [s.replace(')', '_') for s in mpi_columns_list]
+    mpi_columns_list3 = [s.replace('/', '_') for s in mpi_columns_list2]
+    print(mpi_columns_list3)
+
+    di_columns_list = [s.replace('(', '_') for s in di_columns]
+    di_columns_list2 = [s.replace(')', '_') for s in di_columns_list]
+    di_columns_list3 = [s.replace('/', '_') for s in di_columns_list2]
+    print(di_columns_list3)
+
+    all_columns_list = [s.replace('(', '_') for s in all_columns]
+    all_columns_list2 = [s.replace(')', '_') for s in all_columns_list]
+    all_columns_list3 = [s.replace('/', '_') for s in all_columns_list2]
+    print(all_columns_list3)
     # test_event_pk = read_pk_from_gcs_input_blob_path(
     #     test_file_path
     # )
@@ -62,17 +91,19 @@ if __name__ == "__main__":
 
         #test_df_preprocessed = test_data_preprocessor.preprocess()
 
-        # test_quality_checker = TestQualityChecker(
-        #     test_dataframe,
-        #     #test_event_pk,
-        #     #student_courses_prod_df,
-        #     #courses_prod_df,
-        #     project_id,
-        #     #pubsub_topic_name,
-        #     payload_data["test_file_path"],
-        #     ref_file_bucket_id,
-        # )
-        # test_quality_checker.quality_check()
+    test_quality_checker = TestQualityChecker(
+        test_dataframe,
+        #test_event_pk,
+        #student_courses_prod_df,
+        #courses_prod_df,
+        project_id,
+        #pubsub_topic_name,
+        payload_data["test_file_path"],
+        ref_file_bucket_id,
+        mpi_columns_list3,
+        di_columns_list3
+        )
+        test_quality_checker.quality_check()
 
     # except Exception as e:
     #     print(f"An error occurred while processing the dataframes. {e}")
