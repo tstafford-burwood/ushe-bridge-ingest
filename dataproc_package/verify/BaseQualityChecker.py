@@ -30,8 +30,6 @@ class BaseQualityChecker:
         validation_year: str = "2024",
         publisher_client=None,
         use_local_filepaths: bool = False,
-        mpi_columns_list3: list,
-        di_columns_list3: list
     ):
         self.spark = self.get_spark_session()
         self.df = df
