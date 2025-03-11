@@ -13,7 +13,7 @@ class TestQualityChecker(BaseQualityChecker):
         #rooms_df: DataFrame,
         #test_pk: str,
         mpi_columns_list3: list,
-        di_columns_list3: list
+        di_columns_list3: list,
         *args,
         **kwargs,
     ):
