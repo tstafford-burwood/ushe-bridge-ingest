@@ -47,7 +47,7 @@ class BaseQualityChecker:
         self.pubsub_topic_name = pubsub_topic_name
         self.error_dataframes = []
         self.use_local_filepaths = use_local_filepaths
-        self.set_reference_dataframes(use_local_filepaths)
+        #self.set_reference_dataframes(use_local_filepaths)
 
     # @staticmethod
     # def get_reference_dataframes(
