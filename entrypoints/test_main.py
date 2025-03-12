@@ -39,20 +39,6 @@ if __name__ == "__main__":
         f"gs://{bucket_id}/{file_name}"
     )
 
-    test_dataframe_factory = TestDataframeFactory()
-    test_dataframe_factory.set_dataframe(test_file_path)
-    test_dataframe = test_dataframe_factory.get_dataframe()
-    test_dataframe.show()
-
-    bucket_name = 'ushe_context_files'
-    blob_name = 'context.json'
-    storage_client = storage.Client()
-    bucket = storage_client.bucket(bucket_name)
-    blob = bucket.blob(blob_name)
-
-    # with open('gs://ushe_context_files/context.json', 'r') as file:
-    #         input_json = json.load(file)
-    
     with blob.open("r") as file:
             input_json = json.load(file)
 
@@ -89,12 +75,32 @@ if __name__ == "__main__":
     for column in input_json['columns']:
         mpi = column['outputs'].get('MPI')
         if mpi and mpi.get('name') == 'first_name':
-            first_name_column = column['name']
+            first_name = column['name']
+            first_name_column = [s.replace('(', '_') for s in first_name]
+            first_name_column2 = [s.replace(')', '_') for s in first_name_column]
+            first_name_column3 = [s.replace('/', '_') for s in first_name_column2]
         elif mpi and mpi.get('name') == 'last_name':
-            last_name_column = column['name']          
-    print(first_name_column)
-    print(last_name_column)
+            last_name = column['name']
+            last_name_column = [s.replace('(', '_') for s in last_name]
+            last_name_column2 = [s.replace(')', '_') for s in last_name_column]
+            last_name_column3 = [s.replace('/', '_') for s in last_name_column2]          
+    print(first_name_column3)
+    print(last_name_column3)
 
+    test_dataframe_factory = TestDataframeFactory()
+    test_dataframe_factory.set_dataframe(test_file_path, first_name_column3, last_name_column3)
+    test_dataframe = test_dataframe_factory.get_dataframe()
+    test_dataframe.show()
+
+    bucket_name = 'ushe_context_files'
+    blob_name = 'context.json'
+    storage_client = storage.Client()
+    bucket = storage_client.bucket(bucket_name)
+    blob = bucket.blob(blob_name)
+
+    # with open('gs://ushe_context_files/context.json', 'r') as file:
+    #         input_json = json.load(file)
+    
     # test_event_pk = read_pk_from_gcs_input_blob_path(
     #     test_file_path
     # )
