@@ -80,16 +80,12 @@ if __name__ == "__main__":
         mpi = column['outputs'].get('MPI')
         if mpi and mpi.get('name') == 'first_name':
             first_name = column['name']
-            first_name_column = [s.replace('(', '_') for s in first_name]
-            first_name_column2 = [s.replace(')', '_') for s in first_name_column]
-            first_name_column3 = [s.replace('/', '_') for s in first_name_column2]
+            first_name_column = first_name.replace('(', '_').replace(')', '_').replace('/', '_')
         elif mpi and mpi.get('name') == 'last_name':
             last_name = column['name']
-            last_name_column = [s.replace('(', '_') for s in last_name]
-            last_name_column2 = [s.replace(')', '_') for s in last_name_column]
-            last_name_column3 = [s.replace('/', '_') for s in last_name_column2]          
-    print(first_name_column3)
-    print(last_name_column3)
+            last_name_column = last_name.replace('(', '_').replace(')', '_').replace('/', '_')        
+    print(first_name_column)
+    print(last_name_column)
 
     test_dataframe_factory = TestDataframeFactory()
     test_dataframe_factory.set_dataframe(test_file_path, first_name_column3, last_name_column3)
