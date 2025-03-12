@@ -106,10 +106,10 @@ if __name__ == "__main__":
         #test_event_pk,
         #student_courses_prod_df,
         #courses_prod_df,
-        project_id,
+        #project_id,
         #pubsub_topic_name,
         #payload_data["test_file_path"],
-        ref_file_bucket_id,
+        #ref_file_bucket_id,
         mpi_columns_list3,
         di_columns_list3
         )

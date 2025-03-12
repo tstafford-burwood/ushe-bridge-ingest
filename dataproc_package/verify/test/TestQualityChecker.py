@@ -39,7 +39,7 @@ class TestQualityChecker(BaseQualityChecker):
         )
 
         #self.push_error_dataframe_if_errors_found(error_code, error_df)
-        print(error_df)
+        error_df.show()
         return error_df
 
     def quality_check(self):
