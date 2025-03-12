@@ -19,8 +19,8 @@ class TestQualityChecker(BaseQualityChecker):
     ):
         super().__init__(test_df, mpi_columns_list3, di_columns_list3, *args, **kwargs)
         self.test_df = self.df
-         self.mpi_columns_list3 = mpi_columns_list3
-         self.di_columns_list3 = di_columns_list3
+        self.mpi_columns_list3 = mpi_columns_list3
+        self.di_columns_list3 = di_columns_list3
         #self.rooms_df = rooms_df
         #self.test_pk = test_pk
 

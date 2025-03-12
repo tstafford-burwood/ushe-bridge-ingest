@@ -48,6 +48,7 @@ class BaseQualityChecker:
         self.error_dataframes = []
         self.use_local_filepaths = use_local_filepaths
         #self.set_reference_dataframes(use_local_filepaths)
+        
         #self.mpi_columns_list3 = mpi_columns_list3
         #self.di_columns_list3 = di_columns_list3
     # @staticmethod
