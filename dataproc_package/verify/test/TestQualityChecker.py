@@ -42,6 +42,24 @@ class TestQualityChecker(BaseQualityChecker):
         error_df.show()
         return error_df
 
+    def test_di(self) -> DataFrame:
+        """
+        test DI schema application on DF
+
+        """
+        #error_code = "sc01a"
+
+        #distinct_inst_code_list = self.get_distinct_inst_code_list()
+        di_column = self.di_columns_list3
+        print(di_column)
+        error_df = self.df.select(
+            di_column
+        )
+
+        #self.push_error_dataframe_if_errors_found(error_code, error_df)
+        error_df.show()
+        return error_df
+
     def quality_check(self):
         """
         Performs all quality checks and publishes to pubsub with error payload if found
@@ -49,6 +67,7 @@ class TestQualityChecker(BaseQualityChecker):
 
         # Quality checks will populate the self.error_dataframes list if errors are found
         self.test_mpi()
+        self.test_di()
         
         # Roll up to the base class, which will publish the errors to pubsub if self.error_dataframes is populated
         super().quality_check()
