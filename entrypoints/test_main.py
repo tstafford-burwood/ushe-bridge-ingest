@@ -90,7 +90,7 @@ if __name__ == "__main__":
         mpi = column['outputs'].get('MPI')
         if mpi and mpi.get('name') == 'first_name':
             first_name_column = column['name']
-    return first_name_column
+    break
     print(first_name_column)
 
     # test_event_pk = read_pk_from_gcs_input_blob_path(
