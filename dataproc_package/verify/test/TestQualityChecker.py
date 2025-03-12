@@ -33,6 +33,7 @@ class TestQualityChecker(BaseQualityChecker):
 
         #distinct_inst_code_list = self.get_distinct_inst_code_list()
         mpi_column = self.mpi_columns_list3
+        print(mpi_column)
         error_df = self.df.select(
             "First Name", "Address"
         )
