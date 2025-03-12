@@ -26,7 +26,7 @@ class TestQualityChecker(BaseQualityChecker):
 
     def test_mpi(self) -> DataFrame:
         """
-        test MPI schema application to DF
+        test MPI schema application on DF
 
         """
         #error_code = "sc01a"
