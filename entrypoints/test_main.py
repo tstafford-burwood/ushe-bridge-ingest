@@ -34,7 +34,11 @@ if __name__ == "__main__":
     file_name = sys.argv[6]
 
     payload_data = json.loads(payload_data_json_str)
-
+    bucket_name = 'ushe_context_files'
+    blob_name = 'context.json'
+    storage_client = storage.Client()
+    bucket = storage_client.bucket(bucket_name)
+    blob = bucket.blob(blob_name)
     test_file_path = (
         f"gs://{bucket_id}/{file_name}"
     )
@@ -91,12 +95,6 @@ if __name__ == "__main__":
     test_dataframe_factory.set_dataframe(test_file_path, first_name_column3, last_name_column3)
     test_dataframe = test_dataframe_factory.get_dataframe()
     test_dataframe.show()
-
-    bucket_name = 'ushe_context_files'
-    blob_name = 'context.json'
-    storage_client = storage.Client()
-    bucket = storage_client.bucket(bucket_name)
-    blob = bucket.blob(blob_name)
 
     # with open('gs://ushe_context_files/context.json', 'r') as file:
     #         input_json = json.load(file)
