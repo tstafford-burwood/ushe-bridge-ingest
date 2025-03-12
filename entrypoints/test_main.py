@@ -60,6 +60,7 @@ if __name__ == "__main__":
     mpi_names = []
     di_columns = []
     all_columns = []
+    first_name_column = None
 
     for column in input_json['columns']:
         all_columns.append(column['name'])
@@ -84,6 +85,14 @@ if __name__ == "__main__":
     all_columns_list2 = [s.replace(')', '_') for s in all_columns_list]
     all_columns_list3 = [s.replace('/', '_') for s in all_columns_list2]
     print(all_columns_list3)
+
+    for column in input_json['columns']:
+        mpi = column['outputs'].get('MPI')
+        if mpi and mpi.get('name') == 'first_name':
+            first_name_column = column['name']
+    return first_name_column
+    print(first_name_column)
+
     # test_event_pk = read_pk_from_gcs_input_blob_path(
     #     test_file_path
     # )
