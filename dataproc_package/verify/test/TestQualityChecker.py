@@ -34,7 +34,7 @@ class TestQualityChecker(BaseQualityChecker):
         #distinct_inst_code_list = self.get_distinct_inst_code_list()
         mpi_column = self.mpi_columns_list3
         error_df = self.df.select(
-            mpi_column
+            "First Name", "Address"
         )
 
         #self.push_error_dataframe_if_errors_found(error_code, error_df)
