@@ -57,6 +57,7 @@ if __name__ == "__main__":
             input_json = json.load(file)
 
     mpi_columns = []
+    mpi_names = []
     di_columns = []
     all_columns = []
 
@@ -64,6 +65,7 @@ if __name__ == "__main__":
         all_columns.append(column['name'])
         if "MPI" in column['outputs']:
             mpi_columns.append(column['name'])
+            mpi_names.append(column['outputs']['MPI']['name'])
         elif "DI" in column['outputs']:
             di_columns.append(column['name'])
 
@@ -71,6 +73,7 @@ if __name__ == "__main__":
     mpi_columns_list2 = [s.replace(')', '_') for s in mpi_columns_list]
     mpi_columns_list3 = [s.replace('/', '_') for s in mpi_columns_list2]
     print(mpi_columns_list3)
+    print(mpi_names)
 
     di_columns_list = [s.replace('(', '_') for s in di_columns]
     di_columns_list2 = [s.replace(')', '_') for s in di_columns_list]
