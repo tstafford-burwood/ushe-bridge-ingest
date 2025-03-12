@@ -114,7 +114,8 @@ if __name__ == "__main__":
         #payload_data["test_file_path"],
         #ref_file_bucket_id,
         mpi_columns_list3,
-        di_columns_list3
+        di_columns_list3,
+        mpi_names
         )
     test_quality_checker.quality_check()
 

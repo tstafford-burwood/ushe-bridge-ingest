@@ -14,6 +14,7 @@ class TestQualityChecker(BaseQualityChecker):
         #test_pk: str,
         mpi_columns_list3: list,
         di_columns_list3: list,
+        mpi_names: list,
         *args,
         **kwargs,
     ):
@@ -21,6 +22,7 @@ class TestQualityChecker(BaseQualityChecker):
         self.test_df = self.df
         self.mpi_columns_list3 = mpi_columns_list3
         self.di_columns_list3 = di_columns_list3
+        self.mpi_names = mpi_names
         #self.rooms_df = rooms_df
         #self.test_pk = test_pk
 
@@ -33,10 +35,13 @@ class TestQualityChecker(BaseQualityChecker):
 
         #distinct_inst_code_list = self.get_distinct_inst_code_list()
         mpi_column = self.mpi_columns_list3
+        mpi_names = self.mpi_names
         print(mpi_column)
         error_df = self.df.select(
             mpi_column
         )
+        for old_name, new_name in zip(mpi_column, mpi_names):
+            error_df = error_df.withColumnRenamed(old_name, new_name)
 
         #self.push_error_dataframe_if_errors_found(error_code, error_df)
         error_df.show()
