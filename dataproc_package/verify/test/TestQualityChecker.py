@@ -32,7 +32,7 @@ class TestQualityChecker(BaseQualityChecker):
         #error_code = "sc01a"
 
         #distinct_inst_code_list = self.get_distinct_inst_code_list()
-        mpi_column = self.mpi_column
+        mpi_column = self.mpi_columns_list3
         error_df = self.df.select(
             mpi_column
         )
