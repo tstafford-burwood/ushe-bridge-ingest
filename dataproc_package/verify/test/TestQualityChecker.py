@@ -26,14 +26,14 @@ class TestQualityChecker(BaseQualityChecker):
         self.di_columns_list3 = di_columns_list3
         self.mpi_names = mpi_names
         self.bq_table_reference = bq_table_reference
-        self.client = bigquery.Client()
-        self.job_config = bigquery.LoadJobConfig()
-        self.job_config.autodetect = True
-        self.job_config.write_disposition = bigquery.WriteDisposition.WRITE_TRUNCATE
+        client = bigquery.Client()
+        job_config = bigquery.LoadJobConfig()
+        job_config.autodetect = True
+        job_config.write_disposition = bigquery.WriteDisposition.WRITE_TRUNCATE
         #self.rooms_df = rooms_df
         #self.test_pk = test_pk
 
-    def test_mpi(self) -> DataFrame:
+    def test_mpi(self, client, job_config) -> DataFrame:
         """
         test MPI schema application on DF
 
