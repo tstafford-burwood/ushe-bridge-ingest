@@ -88,7 +88,7 @@ if __name__ == "__main__":
     print(last_name_column)
 
     test_dataframe_factory = TestDataframeFactory()
-    test_dataframe_factory.set_dataframe(test_file_path, first_name_column3, last_name_column3)
+    test_dataframe_factory.set_dataframe(test_file_path, first_name_column, last_name_column)
     test_dataframe = test_dataframe_factory.get_dataframe()
     test_dataframe.show()
 
