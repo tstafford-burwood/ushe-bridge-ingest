@@ -51,6 +51,23 @@ if __name__ == "__main__":
     di_columns = []
     all_columns = []
     first_name_column = None
+    last_name_column = None
+    middle_name_column = None
+    ssn_column = None
+    ssid_column = None
+    usbe_student_id_column = None
+    ushe_student_id_column = None
+    ustc_student_id_column = None
+    gender_column = None
+    birth_date_column = None
+    ethnicity_column = None
+
+    dataset = input_json['partner']
+    print(dataset)
+    table_name = input_json['destination'].replace('.', '_')
+    print(table_name)
+    bq_table_reference = f"{project_id}.{dataset}.{table_name}"
+    print(bq_table_reference)
 
     for column in input_json['columns']:
         all_columns.append(column['name'])
@@ -83,12 +100,39 @@ if __name__ == "__main__":
             first_name_column = first_name.replace('(', '_').replace(')', '_').replace('/', '_')
         elif mpi and mpi.get('name') == 'last_name':
             last_name = column['name']
-            last_name_column = last_name.replace('(', '_').replace(')', '_').replace('/', '_')        
+            last_name_column = last_name.replace('(', '_').replace(')', '_').replace('/', '_')
+        elif mpi and mpi.get('name') == 'middle_name':
+            middle_name = column['name']
+            middle_name_column = middle_name.replace('(', '_').replace(')', '_').replace('/', '_')
+        elif mpi and mpi.get('name') == 'ssn':
+            ssn = column['name']
+            ssn_column = ssn.replace('(', '_').replace(')', '_').replace('/', '_')
+        elif mpi and mpi.get('name') == 'ssid':
+            ssid = column['name']
+            ssid_column = ssid.replace('(', '_').replace(')', '_').replace('/', '_')
+        elif mpi and mpi.get('name') == 'usbe_student_id':
+            usbe_student_id = column['name']
+            usbe_student_id_column = usbe_student_id.replace('(', '_').replace(')', '_').replace('/', '_')
+        elif mpi and mpi.get('name') == 'ushe_student_id':
+            ushe_student_id = column['name']
+            ushe_student_id_column = ushe_student_id.replace('(', '_').replace(')', '_').replace('/', '_')
+        elif mpi and mpi.get('name') == 'ustc_student_id':
+            ustc_student_id = column['name']
+            ustc_student_id_column = ustc_student_id.replace('(', '_').replace(')', '_').replace('/', '_')
+        elif mpi and mpi.get('name') == 'gender':
+            gender = column['name']
+            gender_column = gender.replace('(', '_').replace(')', '_').replace('/', '_')
+        elif mpi and mpi.get('name') == 'birth_date':
+            birth_date = column['name']
+            birth_date_column = birth_date.replace('(', '_').replace(')', '_').replace('/', '_')
+        elif mpi and mpi.get('name') == 'ethnicity':
+            ethnicity = column['name']
+            ethnicity_column = ethnicity.replace('(', '_').replace(')', '_').replace('/', '_')        
     print(first_name_column)
     print(last_name_column)
 
     test_dataframe_factory = TestDataframeFactory()
-    test_dataframe_factory.set_dataframe(test_file_path, first_name_column, last_name_column)
+    test_dataframe_factory.set_dataframe(test_file_path, first_name_column, last_name_column, middle_name_column, ssn_column, ssid_column, usbe_student_id_column, ushe_student_id_column, ustc_student_id_column, gender_column, birth_date_column, ethnicity_column)
     test_dataframe = test_dataframe_factory.get_dataframe()
     test_dataframe.show()
 
@@ -126,7 +170,8 @@ if __name__ == "__main__":
         #ref_file_bucket_id,
         mpi_columns_list3,
         di_columns_list3,
-        mpi_names
+        mpi_names,
+        bq_table_reference
         )
     test_quality_checker.quality_check()
 

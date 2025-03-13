@@ -5,6 +5,7 @@ from pyspark.sql import functions as F
 
 from dataproc_package.verify.BaseQualityChecker import BaseQualityChecker
 
+from google.cloud import bigquery
 
 class TestQualityChecker(BaseQualityChecker):
     def __init__(
@@ -15,6 +16,7 @@ class TestQualityChecker(BaseQualityChecker):
         mpi_columns_list3: list,
         di_columns_list3: list,
         mpi_names: list,
+        bq_table_reference: str,
         *args,
         **kwargs,
     ):
@@ -23,6 +25,11 @@ class TestQualityChecker(BaseQualityChecker):
         self.mpi_columns_list3 = mpi_columns_list3
         self.di_columns_list3 = di_columns_list3
         self.mpi_names = mpi_names
+        self.bq_table_reference = bq_table_reference
+        client = bigquery.Client()
+        job_config = bigquery.LoadJobConfig()
+        job_config.autodetect = True
+        job_config.write_disposition = bigquery.WriteDisposition.WRITE_TRUNCATE
         #self.rooms_df = rooms_df
         #self.test_pk = test_pk
 
@@ -45,6 +52,13 @@ class TestQualityChecker(BaseQualityChecker):
 
         #self.push_error_dataframe_if_errors_found(error_code, error_df)
         error_df.show()
+        table = client.get_table(self.bq_table_reference)
+        job = client.load_table_from_dataframe(
+            error_df,
+            self.bq_table_reference,
+            job_config=job_config,
+        )
+        table = client.get_table(self.bq_table_reference)
         return error_df
 
     def test_di(self) -> DataFrame:

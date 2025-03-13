@@ -15,7 +15,7 @@ class TestDataframeFactory(DynamicFileLoaderMixin, BaseSparkDataframeFactory):
         self.schema = test_schema
         super().__init__()
 
-    def set_dataframe(self, gcs_file_path: str, first_name_column: str, last_name_column: str):
+    def set_dataframe(self, gcs_file_path: str, first_name_column: str, last_name_column: str, middle_name_column: str, ssn_column: str, ssid_column: str, usbe_student_id_column: str, ushe_student_id_column: str, ustc_student_id_column: str, gender_column: str, birth_date_column: str, ethnicity_column: str):
         super().set_dataframe(gcs_file_path)
         self.df = (
             self.df.withColumn(f"{first_name_column}",  F.lower(F.trim(F.regexp_replace(F.col(f"{first_name_column}"), '[^a-zA-Z0-9]', ''))))
