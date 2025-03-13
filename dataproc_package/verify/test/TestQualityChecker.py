@@ -53,13 +53,14 @@ class TestQualityChecker(BaseQualityChecker):
 
         #self.push_error_dataframe_if_errors_found(error_code, error_df)
         error_df.show()
-        table = client.get_table(self.bq_table_reference)
+        #table = client.get_table(self.bq_table_reference)
         job = client.load_table_from_dataframe(
             error_df,
             self.bq_table_reference,
             job_config=job_config,
         )
         table = client.get_table(self.bq_table_reference)
+        print(table)
         return error_df
 
     def test_di(self) -> DataFrame:
