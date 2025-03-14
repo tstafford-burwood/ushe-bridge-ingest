@@ -39,7 +39,7 @@ class TestQualityChecker(BaseQualityChecker):
         """
         mpi_column = self.mpi_columns_list3
         mpi_names = self.mpi_names
-        print(mpi_column)
+        
         client = bigquery.Client()
         job_config = bigquery.LoadJobConfig()
         job_config.autodetect = True
