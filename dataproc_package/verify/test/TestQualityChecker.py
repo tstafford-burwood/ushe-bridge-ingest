@@ -73,7 +73,7 @@ class TestQualityChecker(BaseQualityChecker):
 
         #distinct_inst_code_list = self.get_distinct_inst_code_list()
         di_column = self.di_columns_list3
-        print(di_column)
+
         error_df = self.df.select(
             di_column
         )

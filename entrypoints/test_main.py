@@ -65,7 +65,6 @@ if __name__ == "__main__":
     mpi_dataset = input_json['partner']
     di_dataset = f"{mpi_dataset}_De_Identified"
     table_name = input_json['destination'].replace('.', '_')
-    print(table_name)
     mpi_bq_table_reference = f"{project_id}.{mpi_dataset}.{table_name}_preprocessed"
     di_bq_table_reference = f"{project_id}.{di_dataset}.{table_name}_DE_IDENTIFIED"
 
