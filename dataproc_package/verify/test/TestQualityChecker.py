@@ -54,6 +54,7 @@ class TestQualityChecker(BaseQualityChecker):
         error_df.show()
         #table = client.get_table(self.bq_table_reference)
         source_df = error_df.toPandas()
+        
         job = client.load_table_from_dataframe(
             source_df,
             self.mpi_bq_table_reference,
@@ -79,6 +80,10 @@ class TestQualityChecker(BaseQualityChecker):
 
         #self.push_error_dataframe_if_errors_found(error_code, error_df)
         error_df.show()
+        client = bigquery.Client()
+        job_config = bigquery.LoadJobConfig()
+        job_config.autodetect = True
+        job_config.write_disposition = bigquery.WriteDisposition.WRITE_TRUNCATE
         source_df = error_df.toPandas()
         job = client.load_table_from_dataframe(
             source_df,
