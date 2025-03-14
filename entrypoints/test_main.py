@@ -79,18 +79,18 @@ if __name__ == "__main__":
     mpi_columns_list = [s.replace('(', '_') for s in mpi_columns]
     mpi_columns_list2 = [s.replace(')', '_') for s in mpi_columns_list]
     mpi_columns_list3 = [s.replace('/', '_') for s in mpi_columns_list2]
-    print(mpi_columns_list3)
-    print(mpi_names)
+    print(f"MPI source schema:{mpi_columns_list3}")
+    print(f"MPI sink schema: {mpi_names}")
 
     di_columns_list = [s.replace('(', '_') for s in di_columns]
     di_columns_list2 = [s.replace(')', '_') for s in di_columns_list]
     di_columns_list3 = [s.replace('/', '_') for s in di_columns_list2]
-    print(di_columns_list3)
+    print(f"DI source schema:{di_columns_list3}")
 
     all_columns_list = [s.replace('(', '_') for s in all_columns]
     all_columns_list2 = [s.replace(')', '_') for s in all_columns_list]
     all_columns_list3 = [s.replace('/', '_') for s in all_columns_list2]
-    print(all_columns_list3)
+    #print(all_columns_list3)
 
     for column in input_json['columns']:
         mpi = column['outputs'].get('MPI')
@@ -126,9 +126,7 @@ if __name__ == "__main__":
             birth_date_column = birth_date.replace('(', '_').replace(')', '_').replace('/', '_')
         elif mpi and mpi.get('name') == 'ethnicity':
             ethnicity = column['name']
-            ethnicity_column = ethnicity.replace('(', '_').replace(')', '_').replace('/', '_')        
-    print(first_name_column)
-    print(last_name_column)
+            ethnicity_column = ethnicity.replace('(', '_').replace(')', '_').replace('/', '_')
 
     test_dataframe_factory = TestDataframeFactory()
     test_dataframe_factory.set_dataframe(test_file_path, first_name_column, last_name_column, middle_name_column, ssn_column, ssid_column, usbe_student_id_column, ushe_student_id_column, ustc_student_id_column, gender_column, birth_date_column, ethnicity_column)

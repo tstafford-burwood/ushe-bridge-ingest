@@ -61,7 +61,7 @@ class TestQualityChecker(BaseQualityChecker):
             job_config=job_config,
         )
         table = client.get_table(self.mpi_bq_table_reference)
-        print(table)
+        print(f"MPI table: {table}")
         return error_df
 
     def test_di(self) -> DataFrame:
@@ -91,7 +91,7 @@ class TestQualityChecker(BaseQualityChecker):
             job_config=job_config,
         )
         table = client.get_table(self.di_bq_table_reference)
-        print(table)
+        print(f"DI table: {table}")
         return error_df
 
     def quality_check(self):
