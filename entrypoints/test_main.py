@@ -62,12 +62,14 @@ if __name__ == "__main__":
     birth_date_column = None
     ethnicity_column = None
 
-    dataset = input_json['partner']
+    mpi_dataset = input_json['partner']
+    di_dataset = f"{mpi_dataset}_De_Identified"
     print(dataset)
     table_name = input_json['destination'].replace('.', '_')
     print(table_name)
-    bq_table_reference = f"{project_id}.{dataset}.{table_name}"
+    mpi_bq_table_reference = f"{project_id}.{mpi_dataset}.{table_name}_preprocessed"
     print(bq_table_reference)
+    di_bq_table_reference = f"{project_id}.{di_dataset}.{table_name}_DE_IDENTIFIED"
 
     for column in input_json['columns']:
         all_columns.append(column['name'])
@@ -171,7 +173,8 @@ if __name__ == "__main__":
         mpi_columns_list3,
         di_columns_list3,
         mpi_names,
-        bq_table_reference
+        mpi_bq_table_reference,
+        di_bq_table_reference
         )
     test_quality_checker.quality_check()
 

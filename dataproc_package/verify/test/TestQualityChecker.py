@@ -16,7 +16,8 @@ class TestQualityChecker(BaseQualityChecker):
         mpi_columns_list3: list,
         di_columns_list3: list,
         mpi_names: list,
-        bq_table_reference: str,
+        mpi_bq_table_reference: str,
+        di_bq_table_reference: str,
         *args,
         **kwargs,
     ):
@@ -25,7 +26,8 @@ class TestQualityChecker(BaseQualityChecker):
         self.mpi_columns_list3 = mpi_columns_list3
         self.di_columns_list3 = di_columns_list3
         self.mpi_names = mpi_names
-        self.bq_table_reference = bq_table_reference
+        self.mpi_bq_table_reference = mpi_bq_table_reference
+        self.di_bq_table_reference = di_bq_table_reference
         
         #self.rooms_df = rooms_df
         #self.test_pk = test_pk
@@ -35,9 +37,6 @@ class TestQualityChecker(BaseQualityChecker):
         test MPI schema application on DF
 
         """
-        #error_code = "sc01a"
-
-        #distinct_inst_code_list = self.get_distinct_inst_code_list()
         mpi_column = self.mpi_columns_list3
         mpi_names = self.mpi_names
         print(mpi_column)
@@ -54,9 +53,10 @@ class TestQualityChecker(BaseQualityChecker):
         #self.push_error_dataframe_if_errors_found(error_code, error_df)
         error_df.show()
         #table = client.get_table(self.bq_table_reference)
+        source_df = error_df.toPandas()
         job = client.load_table_from_dataframe(
-            error_df,
-            self.bq_table_reference,
+            source_df,
+            self.mpi_bq_table_reference,
             job_config=job_config,
         )
         table = client.get_table(self.bq_table_reference)
