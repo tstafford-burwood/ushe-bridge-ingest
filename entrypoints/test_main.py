@@ -155,6 +155,9 @@ if __name__ == "__main__":
         #test_data_preprocessor = TestPreprocessor(test_dataframe)
 
         #test_df_preprocessed = test_data_preprocessor.preprocess()
+    test_data_index = TestIndex(test_dataframe)
+
+    test_df_index = test_data_index.index()
 
     test_quality_checker = TestQualityChecker(
         test_dataframe,

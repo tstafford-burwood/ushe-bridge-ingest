@@ -1,5 +1,5 @@
 from dataproc_package.preprocess import BasePreprocessor
 
-class TestPreprocessor(BasePreprocessor):
+class TestIndex(BaseIndex):
     pass
         
